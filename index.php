@@ -49,7 +49,7 @@
                                     <li class="nav-item"><a class="nav-link text-info" href="#sec5">園児&amp;職員募集</a></li>
                                     <li class="nav-item"><a class="nav-link text-info" href="sample/index.php#sec6">講師紹介</a></li>
                                     <li class="nav-item"><a class="nav-link text-info" href="sample/index.php#sec7">アクセス</a></li>
-                                    <li class="nav-item"><a class="nav-link text-info" href="https://kids.athuman.com/search/detail/?store_id=990">無料<br>体験授業</a></li>
+                                    <li class="nav-item"><a class="nav-link text-info" target=”_blank” href="https://kids.athuman.com/search/detail/?store_id=990">無料<br>体験授業</a></li>
                                 </ul>
                             </div>
                         </nav>
@@ -306,7 +306,7 @@
                 <span class="text-white d-none d-md-block">|</span>
                 <li class="mb-3 mb-md-0"><a href="sample/index.php#sec7" class="text-white mx-1">アクセス</a></li>
                 <span class="text-white d-none d-md-block">|</span>
-                <li class="mb-3 mb-md-0"><a href="https://kids.athuman.com/search/detail/?store_id=990" class="text-white ml-1">無料体験授業</a></li>
+                <li class="mb-3 mb-md-0"><a target=”_blank” href="https://kids.athuman.com/search/detail/?store_id=990" class="text-white ml-1">無料体験授業</a></li>
             </ul>
             <div class="row px-md-0">
                 <div class="col-md-6">
