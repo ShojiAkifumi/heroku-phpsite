@@ -272,7 +272,7 @@
         
         <!-- 職員募集 -->
         <div class="text-center position-relative">
-            <h2 class="h3 dot font-weight-bold pt-3 pb-5 px-0 mb-0">職員募集</h2>
+            <h2 class="h3 dot font-weight-bold pt-3 pb-5 px-0 mb-0">講師紹介</h2>
         </div>
         <div class="container mb-5">
             <div class="row">
@@ -306,7 +306,7 @@
                 <span class="text-white d-none d-md-block">|</span>
                 <li class="mb-3 mb-md-0"><a href="sample/index.php#sec7" class="text-white mx-1">アクセス</a></li>
                 <span class="text-white d-none d-md-block">|</span>
-                <li class="mb-3 mb-md-0"><a href="contact/index.php" class="https://kids.athuman.com/search/detail/?store_id=990">無料体験授業</a></li>
+                <li class="mb-3 mb-md-0"><a href="https://kids.athuman.com/search/detail/?store_id=990" class="text-white ml-1">無料体験授業</a></li>
             </ul>
             <div class="row px-md-0">
                 <div class="col-md-6">
