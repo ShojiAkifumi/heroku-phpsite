@@ -1,295 +1,334 @@
 <!DOCTYPE html>
-<html lang="ja">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="">
-        <meta name="author" content="">
-        <title>Mountain King - Bootstrap Template</title>
-        <!-- Bootstrap core CSS -->
-        <link href="bootstrap/css/theme.css" rel="stylesheet">
-        <!-- Custom styles for this template -->
-        <link href="style.css" rel="stylesheet">
-        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-        <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-        <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700,100' rel='stylesheet' type='text/css'>
-        <link href='https://fonts.googleapis.com/css?family=Raleway:300,700,900,500' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/typicons/2.0.7/typicons.min.css">
-        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="assets/css/pushy.css">
-        <link rel="stylesheet" href="assets/css/masonry.css">
-        <link rel="stylesheet" href="assets/css/animate.css">
-        <link rel="stylesheet" href="assets/css/magnific-popup.css">
-        <link rel="stylesheet" href="assets/css/odometer-theme-default.css">
-        <script>
-        window.odometerOptions = {
-          selector: '.odometer',
-          format: '(,ddd)', // Change how digit groups are formatted, and how many digits are shown after the decimal point
-          duration: 13000, // Change how long the javascript expects the CSS animation to take
-          theme: 'default'
-        };
-        </script>
-    </head>
-    <body class="">
-      <!-- Pushy Menu -->
-      <nav class="pushy pushy-left">
-        <ul class="list-unstyled">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#feat">Features</a></li>
-            <li><a href="#about">About me</a></li>
-            <li><a href="#news">My Blog</a></li>
-            <li><a href="#history">My History</a></li>
-            <li><a href="#photos">Look my Photos</a></li>
-            <li><a href="#contact">Get in Touch!</a></li>
-            <li><a href="http://www.themeinthebox.com/ourtheme/mountain-king-bootstrap-template/" target="_blank">Download</a></li>
-        </ul>
-      </nav>
+<html>
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
+<meta charset="UTF-8">
+<title>あなたのサイト名</title>
+<meta name="description" content="サイトの説明文">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="canonical" href="あなたのサイトURL">
+<link rel="icon" type="image/png" href="ファビコンのパス" />
+<!-- OGP設定 -->
+<meta property="og:type" content="website" />
+<meta property="og:url" content="あなたのサイトURL" />
+<meta property="og:image" content="SNSで表示させたい画像のパス" />
+<meta property="og:title" content="ページタイトル" />
+<meta property="og:description" content="サイトの説明文" />
+<!-- Facebook用設定 -->
+<meta property="fb:app_id" content="facebookのApp ID" />
+<meta property="article:publisher" content="FacebookページのURL">
+<!-- Twitter用設定 -->
+<meta name="twitter:card" content="Twitterカードの種類">
+<meta name="twitter:site" content="@ユーザー名">
 
-      <!-- Site Overlay -->
-      <div class="site-overlay"></div>
-
-        <header id="home">
-            <div class="container-fluid">
-                <!-- change the image in style.css to the class header .container-fluid [approximately row 50] -->
+<!-- スタイルシートはここから -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/queries.css">
+</head>
+<body>
+<header>
+    <div class="container-fluid position-relative px-0">
+        <h1 class="display-4 catch-copy">キャッチコピーが入ります。</h1>
+        <div class="mod-gnav position-absolute w-100" style="bottom: 0;">
+            <div class="position-relative pt-5">
+                <div class="half bg-info"></div>
                 <div class="container">
-                    <div class="row">
-                        <div class="col-md-3 col-xs-10">
-                            <a href="#" class="thumbnail logo">
-                                <img src="images/your_logo.png" alt="" class="img-responsive">
-                            </a>
-                        </div>
-                        <div class="col-md-1 col-md-offset-8 col-xs-2 text-center">
-                          <div class="menu-btn"><span class="hamburger">&#9776;</span></div>
-                        </div>
-                    </div>
-                    <div class="jumbotron">
-                        <h1><small>In the hall of the</small></br>
-						<strong>Mountain King</strong></h1>
-                        <p>This is a simple hero unit, a simple jumbotron-style component for<br>
-calling extra attention to featured content or information.</p>
-                        <p><a class="btn btn-primary btn-lg" role="button">Learn more</a> <a target="_blank" href="http://www.themeinthebox.com/ourtheme/mountain-king-bootstrap-template/" class="btn btn-lg btn-danger" role="button">Download</a></p>
-                    </div>
+                    <div class="position-relative text-center bg-info"> <img src="img/logo.png" alt="" class="logo"> </div>
                 </div>
-            </div>
-        </header>
-        <section id="feat">
-            <div class="container">
-                <div class="row features">
-                    <div class="col-md-4 text-center wow fadeInUp" data-wow-delay="100ms">
-                        <span class="typcn typcn-pencil x3"></span>
-                        <h4>Consectetur Risus</h4>
-                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                    </div>
-                    <div class="col-md-4 text-center wow fadeInUp" data-wow-delay="300ms">
-                        <span class="typcn typcn-camera-outline x3"></span>
-                        <h4>Ultricies Aenean</h4>
-                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec ullamcorper nulla non metus auctor fringilla.</p>
-                    </div>
-                    <div class="col-md-4 text-center wow fadeInUp" data-wow-delay="500ms">
-                        <span class="typcn typcn-bookmark x3"></span>
-                        <h4>Cras Sollicitudin</h4>
-                        <p>Etiam porta sem malesuada magna mollis euismod. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Maecenas faucibus mollis interdum.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="about" class="number wow fadeInUp" data-wow-delay="300ms">
-            <!-- change the image in style.css to the class .number .container-fluid [approximately row 102] -->
-            <div class="container-fluid">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-6 opaline col-md-offset-6">
-                            <div class="row">
-                                <div class="col-md-offset-1 col-md-10">
-                                    <h3>Ligula Mattis Ornare Ultricies</h3>
-                                    <h5>Pellentesque Cursus Amet Parturient Etiam</h5>
-                                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                                </div>
+                <div class="bg-info py-3">
+                    <div class="container px-0">
+                        <nav class="navbar navbar-expand-md navbar-light mb-3 px-md-0">
+                            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#Navbar" aria-controls="Navbar" aria-expanded="false" aria-label="ナビゲーションの切替"> <span class="navbar-toggler-icon"></span> </button>
+                            <div class="collapse navbar-collapse" id="Navbar">
+                                <ul class="navbar-nav w-100 justify-content-around">
+                                    <li class="nav-item"><a class="nav-link text-info" href="#sec1">SAMPLE園の特色</a></li>
+                                    <li class="nav-item"><a class="nav-link text-info" href="#sec2">SAMPLE園のようす</a></li>
+                                    <li class="nav-item"><a class="nav-link text-info" href="#sec3">お知らせ</a></li>
+                                    <li class="nav-item"><a class="nav-link text-info" href="#sec4">今月の予定</a></li>
+                                    <li class="nav-item"><a class="nav-link text-info" href="#sec5">園児&amp;職員募集</a></li>
+                                    <li class="nav-item"><a class="nav-link text-info" href="sample/index.html#sec6">年間行事</a></li>
+                                    <li class="nav-item"><a class="nav-link text-info" href="sample/index.html#sec7">１日の過ごし方</a></li>
+                                    <li class="nav-item"><a class="nav-link text-info" href="contact/index.html">お問合わせ</a></li>
+                                </ul>
                             </div>
-                            <div class="row text-center">
-                                <!-- set the numbers in assets/js/scripts.js  -->
-                                <div class="col-md-4 boxes col-xs-6 col-xs-offset-3 col-lg-4 col-lg-offset-1 col-md-offset-1 col-sm-6 wow fadeInUp">
-                                    <h5>Ultricies</h5>
-                                    <h3 class="odometer 01">00000</h3>
-                                </div>
-                                <div class="col-md-4 boxes col-xs-6 col-xs-offset-3 col-lg-4 col-lg-offset-2 col-md-offset-2 col-sm-6 wow fadeInUp" data-wow-delay="300ms">
-                                    <h5>Fermentum</h5>
-                                    <h3 class="odometer 02">00000</h3>
-                                </div>
-                            </div>
-                        </div>
+                        </nav>
                     </div>
                 </div>
             </div>
-        </section>
-        <section id="news" class="blog wow fadeInUp" data-wow-delay="300ms">
+        </div>
+    </div>
+</header>
+<main> 
+    
+    <!-- 〇〇園へようこそ！ -->
+    <section class="position-relative pt-5">
+        <div class="bg-lightblue half half-info"></div>
+        <div class="container text-center position-relative bg-lightblue">
+            <h2 class="h3 dot font-weight-bold pt-3 pb-5 px-0 mb-0">ようこそ！SAMPLE園へ</h2>
+        </div>
+        <div class="continer-fluid bg-lightblue pb-3">
+            <div class="container text-center pb-5">
+                <p>親譲りの無鉄砲で小供の時から損ばかりしている。<br>
+                    小学校に居る時分学校の二階から飛び降りて一週間ほど腰を抜かした事がある。</p>
+                <p>なぜそんな無闇をしたと聞く人があるかも知れぬ。<br>
+                    別段深い理由でもない。新築の二階から首を出していたら、次は抜かさずに飛んで見せますと答えた。</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- 〇〇園の特色 -->
+    <section class="position-relative pt-5" id="sec1">
+        <div class="bg-white half half-lightblue"></div>
+        <div class="text-center position-relative">
+            <h2 class="h3 dot font-weight-bold pt-3 pb-5 mb-0">SAMPLE園の特色</h2>
+        </div>
+        <div class="container pb-5">
+            <div class="row pb-5 ">
+                <div class="col-md-4 py-3"> <img src="img/image010.jpg" alt="" class="w-100 rounded-circle mb-4">
+                    <h3 class="h5 py-3 text-center font-weight-bold">タイトルが入ります</h3>
+                    <p class="h6">親譲りの無鉄砲で小供の時から損ばかりしている。小学校に居る時分学校の二階から飛び降りて一週間ほど腰を抜かした事がある。</p>
+                </div>
+                <div class="col-md-4 py-3"> <img src="img/image020.jpg" alt="" class="w-100 rounded-circle mb-4">
+                    <h3 class="h5 py-3 text-center font-weight-bold">タイトルが入ります</h3>
+                    <p class="h6">親譲りの無鉄砲で小供の時から損ばかりしている。小学校に居る時分学校の二階から飛び降りて一週間ほど腰を抜かした事がある。</p>
+                </div>
+                <div class="col-md-4 py-3"> <img src="img/image030.jpg" alt="" class="w-100 rounded-circle mb-4">
+                    <h3 class="h5 py-3 text-center font-weight-bold">タイトルが入ります</h3>
+                    <p class="h6">親譲りの無鉄砲で小供の時から損ばかりしている。小学校に居る時分学校の二階から飛び降りて一週間ほど腰を抜かした事がある。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- 〇〇園のようす -->
+    <section class="position-relative pt-5" id="sec2">
+        <div class="bg-lightblue half half-white"></div>
+        <div class="container text-center position-relative bg-lightblue">
+            <h2 class="h3 dot font-weight-bold pt-3 pb-5 px-0 mb-0">SAMPLE園のようす</h2>
+        </div>
+        <div class="continer-fluid pb-5 bg-lightblue">
+            <div class="container pt-5">
+                <div class="row mb-0 mb-md-3">
+                    <div class="col-md-6 py-4 mb-5 mb-md-0 px-4 position-relative">
+                        <div class="bg-info position-absolute rounded-circle d-flex justify-content-center align-items-center balloon">
+                            <p class="text-white text-center pt-4 px-2">施設の説明が入ります。</p>
+                        </div>
+                        <img src="img/image050.jpg" alt="" class="w-100 rounded"> </div>
+                    <div class="col-md-6 py-4 mb-5 mb-md-0 px-4 position-relative">
+                        <div class="bg-info position-absolute rounded-circle d-flex justify-content-center align-items-center balloon">
+                            <p class="text-white text-center pt-4 px-2">施設の説明が入ります。</p>
+                        </div>
+                        <img src="img/image070.jpg" alt="" class="w-100 rounded"> </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 py-4 mb-5 mb-md-0 px-4 position-relative">
+                        <div class="bg-info position-absolute rounded-circle d-flex justify-content-center align-items-center balloon-s">
+                            <p class="text-white text-center pt-4 px-2">施設の説明が入ります。</p>
+                        </div>
+                        <div class="position-absolute"> </div>
+                        <img src="img/image040.jpg" alt="" class="w-100 rounded"> </div>
+                    <div class="col-md-4 py-4 mb-5 mb-md-0 px-4 position-relative">
+                        <div class="bg-info position-absolute rounded-circle d-flex justify-content-center align-items-center balloon-s">
+                            <p class="text-white text-center pt-4 px-2">施設の説明が入ります。</p>
+                        </div>
+                        <div class="position-absolute"> </div>
+                        <img src="img/image060.jpg" alt="" class="w-100 rounded"> </div>
+                    <div class="col-md-4 pt-4 mb-5 mb-md-0 px-4 position-relative">
+                        <div class="bg-info position-absolute rounded-circle d-flex justify-content-center align-items-center balloon-s">
+                            <p class="text-white text-center pt-4 px-2">施設の説明が入ります。</p>
+                        </div>
+                        <div class="position-absolute"> </div>
+                        <img src="img/image080.jpg" alt="" class="w-100 rounded"> </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- お知らせ -->
+    <section class="position-relative pt-5" id="sec3">
+        <div class="bg-white half half-lightblue"></div>
+        <div class="text-center position-relative">
+            <h2 class="h3 dot font-weight-bold pt-3 pb-5 px-0 mb-0">お知らせ</h2>
+        </div>
+        <div class="mb-0 mod-light-blue">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-7">
-                        <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
-                        <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Donec sed odio dui. Curabitur blandit tempus porttitor. Nullam id dolor id nibh ultricies vehicula ut id elit. Etiam porta sem malesuada magna mollis euismod.</p>
-                        <p>Donec id elit non mi porta gravida at eget metus. Donec id elit non mi porta gravida at eget metus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nulla vitae elit libero, a pharetra augue.</p>
-                        <a class="btn btn-danger btn-lg" href="#">Take a Look <i class="fa fa-arrow-circle-o-right"></i> </a>
-                    </div>
-                    <div class="col-md-5">
-                        <a href="#">
-                            <img src="https://unsplash.it/1200/1200?image=839" alt="" class="img-responsive">
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="history" class="story wow fadeInUp" data-wow-delay="300ms">
-            <!-- change the image in style.css to the class .story .container-fluid [approximately row 141] -->
-            <div class="container-fluid">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-6 opaline">
-                            <div class="row">
-                                <div class="col-md-10 col-md-offset-1">
-                                    <p class="lead"><i>Donec sed odio dui. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</i></p>
-                                    <p><i>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</i></p>
-                                    <h6 class="lead"> – Fermentum Dapibus</h6>
-                                    <p><small>Nibh Etiam Risus Bibendum<br>
-        Nullam id dolor id nibh ultricies vehicula ut id elit.</small></p>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="col-md-5 py-3"> <img src="img/image090.jpg" alt="" class="w-100 rounded"> </div>
+                    <div class="col-md-7 py-5">
+                        <h3 class="mb-3 text-center font-weight-bold">タイトルが入ります</h3>
+                        <h4 class="text-center mb-3">サブタイトルが入りますサブタイトルが入ります</h4>
+                        <h5 class="font-weight-bold mb-3 text-center" style="line-height: 1.8rem">日　時：〇〇月〇〇日（土）9:00～12:00<br>
+                            場　所：〇〇〇園　おゆうぎ室<br>
+                            持ち物：〇〇〇、〇〇〇、〇〇〇、〇〇〇</h5>
+                        <p class="h6">親譲りの無鉄砲で小供の時から損ばかりしている。小学校に居る時分学校の二階から飛び降りて一週間ほど腰を抜かした事がある。なぜそんな無闇をしたと聞く人があるかも知れぬ。別段深い理由でもない。新築の二階から首を出していたら、次は抜かさずに飛んで見せますと答えた。（青空文庫より）</p>
+                        <p class="h6 mb-3">※お車でお越しの際は、駅周辺の駐車場をご利用ください。</p>
                     </div>
                 </div>
+                <div class="row pt-5 border-bottom">
+                    <div class="col-4 col-sm-3 col-md-2 h5 font-weight-normal">2018.12.10</div>
+                    <div class="col-4 col-sm-3 col-md-2 h6 text-center"><span class="badge badge-pill badge-danger px-3 py-1">おねがい</span></div>
+                    <div class="col-md-8 h6">インフルエンザが流行っています。こまめにうがい、手洗いを行ってください。</div>
+                </div>
+                <div class="row pt-3 border-bottom">
+                    <div class="col-4 col-sm-3 col-md-2 h5 font-weight-normal">2018.12.10</div>
+                    <div class="col-4 col-sm-3 col-md-2 h6 text-center"><span class="badge badge-pill badge-success px-3 py-1">イベント</span></div>
+                    <div class="col-md-8 h6">イベントの文章がはいります。</div>
+                </div>
+                <div class="row pt-3 mb-5 border-bottom">
+                    <div class="col-4 col-sm-3 col-md-2 h5 font-weight-normal">2018.12.10</div>
+                    <div class="col-4 col-sm-3 col-md-2 h6 text-center"><span class="badge badge-pill badge-warning px-3 py-1">おしらせ</span></div>
+                    <div class="col-md-8 h6">新しいウサギが仲間になりました。お名前募集中です。</div>
+                </div>
+                <div class="row"></div>
             </div>
-        </section>
-        <section id="photos" class="gallery wow fadeInUp" data-wow-delay="300ms">
-            <div class="container">
-                <div class="row">
-                    <div class="masonry image-gallery">
-                        <div class="grid-sizer"></div>
-                        <div class="gutter-sizer"></div>
-                        <div class="item item-width2">
-                            <a href="https://unsplash.it/1000/600?image=529">
-                              <img src="https://unsplash.it/600/300?image=529" alt="" />
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="https://unsplash.it/1000/600?image=523">
-                              <img src="https://unsplash.it/320/776?image=523" alt="" />
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="https://unsplash.it/600/1000?image=503">
-                              <img src="https://unsplash.it/500/800?image=503" alt="" />
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="https://unsplash.it/1000/600?image=505">
-                              <img src="https://unsplash.it/400/400?image=505" alt="" />
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="https://unsplash.it/800/800?image=454">
-                              <img src="https://unsplash.it/4403/2476?image=454" alt="" />
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="https://unsplash.it/800/800?image=515">
-                              <img src="https://unsplash.it/585/439?image=515" alt="" />
-                            </a>
-                        </div>
-                        <div class="item item-width2">
-                            <a href="https://unsplash.it/1000/600?image=451">
-                              <img src="https://unsplash.it/600/140?image=451" alt="" />
-                            </a>
-                        </div>
-                    </div>
+        </div>
+    </section>
+    
+    <!-- 〇〇月の予定 -->
+    <section class="position-relative pt-5" id="sec4">
+        <div class="bg-lightblue half half-white"></div>
+        <div class="container text-center position-relative bg-lightblue">
+            <h2 class="h3 dot font-weight-bold pt-3 pb-5 px-0 mb-0">今月の予定</h2>
+        </div>
+        <div class="continer-fluid bg-lightblue pb-3">
+            <div class="container pb-5">
+                <div>
+                    <ul class="px-0">
+                        <li class="d-inline-block"><i class="fas fa-moon"></i>...つき組（年長）</li>
+                        <li class="d-inline-block"><i class="fas fa-star"></i>...ほし組（年中）</li>
+                        <li class="d-inline-block"><i class="fas fa-rainbow"></i>...にじ組（年少）</li>
+                        <li class="d-inline-block"><i class="fas fa-feather"></i>...ひよこ組（3歳児保育）</li>
+                    </ul>
+                </div>
+                <table class="table bg-white">
+                    <tr>
+                        <th>３日（土）</th>
+                        <td>保育参観</td>
+                        <td>予定の詳細が入ります。</td>
+                    </tr>
+                    <tr>
+                        <th>７日（水）</th>
+                        <td>芋ほり</td>
+                        <td>予定の詳細が入ります。</td>
+                    </tr>
+                    <tr>
+                        <th>〇日（〇）</th>
+                        <td>半日保育</td>
+                        <td>11：30降園。※ 給食はでません。</td>
+                    </tr>
+                    <tr>
+                        <th>〇〇日（〇）</th>
+                        <td>予定の内容が入ります。</td>
+                        <td>予定の詳細が入ります。</td>
+                    </tr>
+                    <tr>
+                        <th>〇〇日（〇）</th>
+                        <td>予定の内容が入ります。</td>
+                        <td>予定の詳細が入ります。</td>
+                    </tr>
+                    <tr>
+                        <th>〇〇日（〇）</th>
+                        <td>予定の内容が入ります。</td>
+                        <td>予定の詳細が入ります。</td>
+                    </tr>
+                    <tr>
+                        <th>〇〇日（〇）</th>
+                        <td>予定の内容が入ります。</td>
+                        <td>予定の詳細が入ります。</td>
+                    </tr>
+                    <tr>
+                        <th>〇〇日（〇）</th>
+                        <td>予定の内容が入ります。</td>
+                        <td>予定の詳細が入ります。</td>
+                    </tr>
+                    <tr>
+                        <th>〇〇日（〇）</th>
+                        <td>予定の内容が入ります。</td>
+                        <td>予定の詳細が入ります。</td>
+                    </tr>
+                </table>
+                <div class="mt-5 text-center"> <a class="btn btn-info badge-pill text-center px-4" href="sample/index.html">年間の行事予定はこちら</a> </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- 園児募集 -->
+    <section class="position-relative pt-5" id="sec5">
+        <div class="bg-white half half-lightblue"></div>
+        <div class="text-center position-relative">
+            <h2 class="h3 dot font-weight-bold pt-3 pb-5 px-0 mb-0">園児募集</h2>
+        </div>
+        <div class="container mb-5">
+            <div class="row">
+                <div class="col-md-6 py-3">
+                    <h3 class="h4 py-3 text-center font-weight-bold">タイトルが入ります</h3>
+                    <p class="h6 mb-4">親譲りの無鉄砲で小供の時から損ばかりしている。小学校に居る時分学校の二階から飛び降りて一週間ほど腰を抜かした事がある。なぜそんな無闇をしたと聞く人があるかも知れぬ。別段深い理由でもない。新築の二階から首を出していたら、次は抜かさずに飛んで見せますと答えた。（青空文庫より）</p>
+                    <div class="text-center"> <a class="btn btn-info badge-pill text-center px-4" href="contact/index.html">園児募集のご案内はこちら</a> </div>
+                </div>
+                <div class="col-md-6 py-3"> <img src="img/image100.jpg" alt="" class="w-100 rounded"> </div>
+            </div>
+        </div>
+        
+        <!-- 職員募集 -->
+        <div class="text-center position-relative">
+            <h2 class="h3 dot font-weight-bold pt-3 pb-5 px-0 mb-0">職員募集</h2>
+        </div>
+        <div class="container mb-5">
+            <div class="row">
+                <div class="col-md-6 py-3"> <img src="img/image110.jpg" alt="" class="w-100 rounded"> </div>
+                <div class="col-md-6 py-3">
+                    <h3 class="h4 py-3 text-center font-weight-bold">タイトルが入ります</h3>
+                    <p class="h6 mb-4">親譲りの無鉄砲で小供の時から損ばかりしている。小学校に居る時分学校の二階から飛び降りて一週間ほど腰を抜かした事がある。なぜそんな無闇をしたと聞く人があるかも知れぬ。別段深い理由でもない。新築の二階から首を出していたら、次は抜かさずに飛んで見せますと答えた。（青空文庫より）</p>
+                    <div class="text-center"> <a class="btn btn-info badge-pill text-center px-4" href="contact/index.html">職員募集のご案内はこちら</a> </div>
                 </div>
             </div>
-        </section>
-        <section class="clients wow fadeInUp" data-wow-delay="300ms">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-2">
-                        <img src="images/logo-sample-01.jpg" class="img-responsive" />
-                    </div>
-                    <div class="col-md-2">
-                        <img src="images/logo-sample-02.jpg" class="img-responsive" />
-                    </div>
-                    <div class="col-md-2">
-                        <img src="images/logo-sample-03.png" class="img-responsive" />
-                    </div>
-                    <div class="col-md-2">
-                        <img src="images/logo-sample-04.jpg" class="img-responsive" />
-                    </div>
-                    <div class="col-md-2">
-                        <img src="images/logo-sample-05.jpg" class="img-responsive" />
-                    </div>
-                    <div class="col-md-2">
-                        <img src="images/logo-sample-06.png" class="img-responsive" />
-                    </div>
+        </div>
+    </section>
+</main>
+<footer class="position-relative pt-5"> 
+    <!-- フッターナビ -->
+    <div class="half bg-info"></div>
+    <div class="bg-info pb-3 position-relative">
+        <div class="container mt-3">
+            <ul class="d-md-flex justify-content-center justify-content-md-between flex-wrap h6 list-unstyled pb-4">
+                <li class="mb-3 mb-md-0"><a href="#sec1" class="text-white mr-1">SAMPLE園の特色</a></li>
+                <span class="text-white d-none d-md-block">|</span>
+                <li class="mb-3 mb-md-0"><a href="#sec2" class="text-white mx-1">SAMPLE園のようす</a></li>
+                <span class="text-white d-none d-md-block">|</span>
+                <li class="mb-3 mb-md-0"><a href="#sec3" class="text-white mx-1">お知らせ</a></li>
+                <span class="text-white d-none d-md-block">|</span>
+                <li class="mb-3 mb-md-0"><a href="#sec4" class="text-white mx-1">今月の予定</a></li>
+                <span class="text-white d-none d-md-block">|</span>
+                <li class="mb-3 mb-md-0"><a href="#sec5" class="text-white mx-1">園児&amp;職員募集</a></li>
+                <span class="text-white d-none d-md-block">|</span>
+                <li class="mb-3 mb-md-0"><a href="sample/index.html#sec6" class="text-white mx-1">年間行事</a></li>
+                <span class="text-white d-none d-md-block">|</span>
+                <li class="mb-3 mb-md-0"><a href="sample/index.html#sec7" class="text-white mx-1">１日の過ごし方</a></li>
+                <span class="text-white d-none d-md-block">|</span>
+                <li class="mb-3 mb-md-0"><a href="contact/index.html" class="text-white ml-1">お問合わせ</a></li>
+            </ul>
+            <div class="row px-md-0">
+                <div class="col-md-6">
+                    <p class="text-white h5 font-weight-bold">SAMPLE園</p>
+                    <p class="text-white mb-0">〒123-4567</p>
+                    <p class="text-white">東京都港区芝8丁目0-0</p>
+                </div>
+                <div class="col-md-6">
+                    <p class="text-white mb-1"><i class="fas fa-phone mr-2"></i>03-1234-5678</p>
+                    <p class="text-white mb-1"><i class="fas fa-fax mr-2"></i>03-1234-5678</p>
+                    <p class="text-white mb-1"><i class="far fa-envelope mr-2"></i>info@example.com</p>
                 </div>
             </div>
-        </section>
-        <section id="contact" class="prefooter wow fadeInUp" data-wow-delay="300ms">
-            <!-- change the image in style.css to the class .prefooter .container-fluid [approximately row 154] -->
-            <div class="container-fluid">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-8">
-                            <h3>Maecenas sed diam eget risus varius<br> blandit sit amet non magna.</h3>
-                            <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <input type="text" class="form-control" placeholder="Your Email Here...">
-                                    <br>
-                                    <button type="button" class="btn btn-danger">Submit Newsletter</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <footer>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8">
-                        <h3>Your Logo</h3>
-                        <p>© 2016 Your Company. Designed and Developed by <a target="_blank" href="http://www.themeinthebox.com">ThemeintheBox.com</a></p>
-                    </div>
-                    <div class="col-md-4">
-                        <p class="text-right social"><i class="typcn typcn-social-facebook-circular"></i><i class="typcn typcn-social-twitter-circular"></i><i class="typcn typcn-social-tumbler-circular"></i><i class="typcn typcn-social-github-circular"></i><i class="typcn typcn-social-dribbble-circular"></i></p>
-                    </div>
-                </div>
-            </div>
-        </footer>
-        <!-- Bootstrap core JavaScript
-    ================================================== -->
-        <!-- Placed at the end of the document so the pages load faster -->
-        <script src="assets/js/jquery.min.js"></script>
-        <script src="bootstrap/js/bootstrap.min.js"></script>
-        <script src="https://netdna.bootstrapcdn.com/twitter-bootstrap/2.0.4/js/bootstrap-scrollspy.js"></script>
-        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-        <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
-        <script src="http://masonry.desandro.com/masonry.pkgd.js"></script>
-        <script src="assets/js/masonry.js"></script>
-        <script src="assets/js/pushy.min.js"></script>
-        <script src="assets/js/jquery.magnific-popup.min.js"></script>
-        <script src="assets/js/wow.min.js"></script>
-        <script src="assets/js/scripts.js"></script>
-        <script src="assets/js/odometer.js"></script>
-    </body>
+        </div>
+        <hr style="border-color: #fff;">
+        <p class="mb-0 pt-2 text-white text-center mod-copyright">20XX &copy; あなたのサイト名</p>
+        <div class="row"> </div>
+    </div>
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script> 
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script> 
+<script type="text/javascript" src="js/script.js"></script>
+</body>
 </html>
-
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-34344036-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
