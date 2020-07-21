@@ -49,7 +49,7 @@
                                     <li class="nav-item"><a class="nav-link text-info" href="#sec5">園児&amp;職員募集</a></li>
                                     <li class="nav-item"><a class="nav-link text-info" href="sample/index.php#sec6">年間行事</a></li>
                                     <li class="nav-item"><a class="nav-link text-info" href="sample/index.php#sec7">１日の過ごし方</a></li>
-                                    <li class="nav-item"><a class="nav-link text-info" href="https://kids.athuman.com/search/detail/?store_id=990">無料体験授業</a></li>
+                                    <li class="nav-item"><a class="nav-link text-info" href="https://kids.athuman.com/search/detail/?store_id=990">無料<br>体験授業</a></li>
                                 </ul>
                             </div>
                         </nav>
