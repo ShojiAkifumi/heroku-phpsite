@@ -35,20 +35,20 @@
                 <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#Navbar" aria-controls="Navbar" aria-expanded="false" aria-label="ナビゲーションの切替"> <span class="navbar-toggler-icon"></span> </button>
                 <div class="collapse navbar-collapse" id="Navbar">
                     <ul class="navbar-nav w-100 justify-content-around">
-                        <li class="nav-item"><a class="nav-link text-info" href="../index.html#sec1">SAMPLE園の特色</a></li>
-                        <li class="nav-item"><a class="nav-link text-info" href="../index.html#sec2">SAMPLE園のようす</a></li>
-                        <li class="nav-item"><a class="nav-link text-info" href="../index.html#sec3">お知らせ</a></li>
-                        <li class="nav-item"><a class="nav-link text-info" href="../index.html#sec4">今月の予定</a></li>
-                        <li class="nav-item"><a class="nav-link text-info" href="../index.html#sec5">園児&amp;職員募集</a></li>
-                        <li class="nav-item"><a class="nav-link text-info" href="index.html#sec6">年間行事</a></li>
-                        <li class="nav-item"><a class="nav-link text-info" href="index.html#sec7">１日の過ごし方</a></li>
-                        <li class="nav-item"><a class="nav-link text-info" href="../contact/index.html">お問合わせ</a></li>
+                        <li class="nav-item"><a class="nav-link text-info" href="../index.php#sec1">SAMPLE園の特色</a></li>
+                        <li class="nav-item"><a class="nav-link text-info" href="../index.php#sec2">SAMPLE園のようす</a></li>
+                        <li class="nav-item"><a class="nav-link text-info" href="../index.php#sec3">お知らせ</a></li>
+                        <li class="nav-item"><a class="nav-link text-info" href="../index.php#sec4">今月の予定</a></li>
+                        <li class="nav-item"><a class="nav-link text-info" href="../index.php#sec5">園児&amp;職員募集</a></li>
+                        <li class="nav-item"><a class="nav-link text-info" href="index.php#sec6">年間行事</a></li>
+                        <li class="nav-item"><a class="nav-link text-info" href="index.php#sec7">１日の過ごし方</a></li>
+                        <li class="nav-item"><a class="nav-link text-info" href="https://kids.athuman.com/search/detail/?store_id=990">お問合わせ</a></li>
                     </ul>
                 </div>
             </nav>
             <nav aria-label="パンくずリスト" class="container">
                 <ol class="breadcrumb p-0 pl-md-3">
-                    <li class="breadcrumb-item text-white"><a href="../index.html" class="text-white">トップページ</a></li>
+                    <li class="breadcrumb-item text-white"><a href="../index.php" class="text-white">トップページ</a></li>
                     <li class="breadcrumb-item text-white active" aria-current="page">サンプルページ</li>
                 </ol>
             </nav>
@@ -349,21 +349,21 @@
     <div class="bg-info pb-3 position-relative">
         <div class="container mt-3">
             <ul class="d-md-flex justify-content-center justify-content-md-between flex-wrap h6 list-unstyled pb-4">
-                <li class="mb-3 mb-md-0"><a href="../index.html#sec1" class="text-white mr-1">SAMPLE園の特色</a></li>
+                <li class="mb-3 mb-md-0"><a href="../index.php#sec1" class="text-white mr-1">SAMPLE園の特色</a></li>
                 <span class="text-white d-none d-md-block">|</span>
-                <li class="mb-3 mb-md-0"><a href="../index.html#sec2" class="text-white mx-1">SAMPLE園のようす</a></li>
+                <li class="mb-3 mb-md-0"><a href="../index.php#sec2" class="text-white mx-1">SAMPLE園のようす</a></li>
                 <span class="text-white d-none d-md-block">|</span>
-                <li class="mb-3 mb-md-0"><a href="../index.html#sec3" class="text-white mx-1">お知らせ</a></li>
+                <li class="mb-3 mb-md-0"><a href="../index.php#sec3" class="text-white mx-1">お知らせ</a></li>
                 <span class="text-white d-none d-md-block">|</span>
-                <li class="mb-3 mb-md-0"><a href="../index.html#sec4" class="text-white mx-1">今月の予定</a></li>
+                <li class="mb-3 mb-md-0"><a href="../index.php#sec4" class="text-white mx-1">今月の予定</a></li>
                 <span class="text-white d-none d-md-block">|</span>
-                <li class="mb-3 mb-md-0"><a href="../index.html#sec5" class="text-white mx-1">園児&amp;職員募集</a></li>
+                <li class="mb-3 mb-md-0"><a href="../index.php#sec5" class="text-white mx-1">園児&amp;職員募集</a></li>
                 <span class="text-white d-none d-md-block">|</span>
-                <li class="mb-3 mb-md-0"><a href="index.html#sec6" class="text-white mx-1">年間行事</a></li>
+                <li class="mb-3 mb-md-0"><a href="index.php#sec6" class="text-white mx-1">年間行事</a></li>
                 <span class="text-white d-none d-md-block">|</span>
-                <li class="mb-3 mb-md-0"><a href="index.html#sec7" class="text-white mx-1">１日の過ごし方</a></li>
+                <li class="mb-3 mb-md-0"><a href="index.php#sec7" class="text-white mx-1">１日の過ごし方</a></li>
                 <span class="text-white d-none d-md-block">|</span>
-                <li class="mb-3 mb-md-0"><a href="../contact/index.html" class="text-white ml-1">お問合わせ</a></li>
+                <li class="mb-3 mb-md-0"><a href="../contact/index.php" class="text-white ml-1">お問合わせ</a></li>
             </ul>
             <div class="row px-md-0">
                 <div class="col-md-6">
