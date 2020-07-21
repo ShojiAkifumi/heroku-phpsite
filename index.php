@@ -43,12 +43,12 @@
                             <div class="collapse navbar-collapse" id="Navbar">
                                 <ul class="navbar-nav w-100 justify-content-around">
                                     <li class="nav-item"><a class="nav-link text-info" href="#sec1">SAMPLE園の特色</a></li>
-                                    <li class="nav-item"><a class="nav-link text-info" href="#sec2">SAMPLE園のようす</a></li>
+                                    <li class="nav-item"><a class="nav-link text-info" href="#sec2">コース紹介</a></li>
                                     <li class="nav-item"><a class="nav-link text-info" href="#sec3">お知らせ</a></li>
                                     <li class="nav-item"><a class="nav-link text-info" href="#sec4">今月の予定</a></li>
                                     <li class="nav-item"><a class="nav-link text-info" href="#sec5">園児&amp;職員募集</a></li>
-                                    <li class="nav-item"><a class="nav-link text-info" href="sample/index.php#sec6">年間行事</a></li>
-                                    <li class="nav-item"><a class="nav-link text-info" href="sample/index.php#sec7">１日の過ごし方</a></li>
+                                    <li class="nav-item"><a class="nav-link text-info" href="sample/index.php#sec6">講師紹介</a></li>
+                                    <li class="nav-item"><a class="nav-link text-info" href="sample/index.php#sec7">アクセス</a></li>
                                     <li class="nav-item"><a class="nav-link text-info" href="https://kids.athuman.com/search/detail/?store_id=990">無料<br>体験授業</a></li>
                                 </ul>
                             </div>
@@ -81,20 +81,20 @@
     <section class="position-relative pt-5" id="sec1">
         <div class="bg-white half half-lightblue"></div>
         <div class="text-center position-relative">
-            <h2 class="h3 dot font-weight-bold pt-3 pb-5 mb-0">SAMPLE園の特色</h2>
+            <h2 class="h3 dot font-weight-bold pt-3 pb-5 mb-0">コース紹介</h2>
         </div>
         <div class="container pb-5">
             <div class="row pb-5 ">
                 <div class="col-md-4 py-3"> <img src="img/image010.jpg" alt="" class="w-100 rounded-circle mb-4">
-                    <h3 class="h5 py-3 text-center font-weight-bold">タイトルが入ります</h3>
+                    <h3 class="h5 py-3 text-center font-weight-bold">ミドルコース</h3>
                     <p class="h6">親譲りの無鉄砲で小供の時から損ばかりしている。小学校に居る時分学校の二階から飛び降りて一週間ほど腰を抜かした事がある。</p>
                 </div>
                 <div class="col-md-4 py-3"> <img src="img/image020.jpg" alt="" class="w-100 rounded-circle mb-4">
-                    <h3 class="h5 py-3 text-center font-weight-bold">タイトルが入ります</h3>
+                    <h3 class="h5 py-3 text-center font-weight-bold">プライマリーコース</h3>
                     <p class="h6">親譲りの無鉄砲で小供の時から損ばかりしている。小学校に居る時分学校の二階から飛び降りて一週間ほど腰を抜かした事がある。</p>
                 </div>
                 <div class="col-md-4 py-3"> <img src="img/image030.jpg" alt="" class="w-100 rounded-circle mb-4">
-                    <h3 class="h5 py-3 text-center font-weight-bold">タイトルが入ります</h3>
+                    <h3 class="h5 py-3 text-center font-weight-bold">プロフェッサーコース</h3>
                     <p class="h6">親譲りの無鉄砲で小供の時から損ばかりしている。小学校に居る時分学校の二階から飛び降りて一週間ほど腰を抜かした事がある。</p>
                 </div>
             </div>
@@ -292,7 +292,7 @@
     <div class="bg-info pb-3 position-relative">
         <div class="container mt-3">
             <ul class="d-md-flex justify-content-center justify-content-md-between flex-wrap h6 list-unstyled pb-4">
-                <li class="mb-3 mb-md-0"><a href="#sec1" class="text-white mr-1">SAMPLE園の特色</a></li>
+                <li class="mb-3 mb-md-0"><a href="#sec1" class="text-white mr-1">コース紹介</a></li>
                 <span class="text-white d-none d-md-block">|</span>
                 <li class="mb-3 mb-md-0"><a href="#sec2" class="text-white mx-1">SAMPLE園のようす</a></li>
                 <span class="text-white d-none d-md-block">|</span>
@@ -302,11 +302,11 @@
                 <span class="text-white d-none d-md-block">|</span>
                 <li class="mb-3 mb-md-0"><a href="#sec5" class="text-white mx-1">園児&amp;職員募集</a></li>
                 <span class="text-white d-none d-md-block">|</span>
-                <li class="mb-3 mb-md-0"><a href="sample/index.php#sec6" class="text-white mx-1">年間行事</a></li>
+                <li class="mb-3 mb-md-0"><a href="sample/index.php#sec6" class="text-white mx-1">講師紹介</a></li>
                 <span class="text-white d-none d-md-block">|</span>
-                <li class="mb-3 mb-md-0"><a href="sample/index.php#sec7" class="text-white mx-1">１日の過ごし方</a></li>
+                <li class="mb-3 mb-md-0"><a href="sample/index.php#sec7" class="text-white mx-1">アクセス</a></li>
                 <span class="text-white d-none d-md-block">|</span>
-                <li class="mb-3 mb-md-0"><a href="contact/index.php" class="text-white ml-1">お問合わせ</a></li>
+                <li class="mb-3 mb-md-0"><a href="contact/index.php" class="https://kids.athuman.com/search/detail/?store_id=990">無料体験授業</a></li>
             </ul>
             <div class="row px-md-0">
                 <div class="col-md-6">
