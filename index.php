@@ -46,9 +46,9 @@
                                     <li class="nav-item"><a class="nav-link text-info" href="#sec2">コース紹介</a></li>
                                     <li class="nav-item"><a class="nav-link text-info" href="#sec3">お知らせ</a></li>
                                     <li class="nav-item"><a class="nav-link text-info" href="#sec4">今月の予定</a></li>
-                                    <li class="nav-item"><a class="nav-link text-info" href="#sec5">園児&amp;職員募集</a></li>
-                                    <li class="nav-item"><a class="nav-link text-info" href="sample/index.php#sec6">講師紹介</a></li>
-                                    <li class="nav-item"><a class="nav-link text-info" href="sample/index.php#sec7">アクセス</a></li>
+                                    <li class="nav-item"><a class="nav-link text-info" href="#sec5">作品紹介</a></li>
+                                    <li class="nav-item"><a class="nav-link text-info" href="#sec6">講師紹介</a></li>
+                                    <li class="nav-item"><a class="nav-link text-info" href="#sec7">アクセス</a></li>
                                     <li class="nav-item"><a class="nav-link text-info" target=”_blank” href="https://kids.athuman.com/search/detail/?store_id=990">無料<br>体験授業</a></li>
                                 </ul>
                             </div>
@@ -253,25 +253,128 @@
         </div>
     </section>
     
-    <!-- 園児募集 -->
+    <!-- 作品紹介 -->
     <section class="position-relative pt-5" id="sec5">
-        <div class="bg-white half half-lightblue"></div>
-        <div class="text-center position-relative">
-            <h2 class="h3 dot font-weight-bold pt-3 pb-5 px-0 mb-0">園児募集</h2>
+        <div class="bg-lightblue half half-info"></div>
+        <div class="container text-center position-relative bg-lightblue">
+            <h2 class="h3 dot font-weight-bold pt-3 pb-5 px-0 mb-0">作品紹介</h2>
         </div>
-        <div class="container mb-5">
-            <div class="row">
-                <div class="col-md-6 py-3">
-                    <h3 class="h4 py-3 text-center font-weight-bold">タイトルが入ります</h3>
-                    <p class="h6 mb-4">親譲りの無鉄砲で小供の時から損ばかりしている。小学校に居る時分学校の二階から飛び降りて一週間ほど腰を抜かした事がある。なぜそんな無闇をしたと聞く人があるかも知れぬ。別段深い理由でもない。新築の二階から首を出していたら、次は抜かさずに飛んで見せますと答えた。（青空文庫より）</p>
-                    <div class="text-center"> <a class="btn btn-info badge-pill text-center px-4" href="contact/index.php">園児募集のご案内はこちら</a> </div>
+        <div class="bg-lightblue pb-5">
+            <div class="container pb-5"> 
+                
+                <!---------------------------------------- 春 ---------------------------------------->
+                <div class="row py-4">
+                    <div class="col-md-5">
+                        <div class="row mb-3 mx-0 mx-md-3">
+                            <div class="col-4">
+                                <div class="position-absolute bg-info rounded-circle season">
+                                    <div class="text-center text-white pt-2 h2 rounded-circle">春</div>
+                                </div>
+                            </div>
+                            <div class="col-8">
+                                <ul class="list-unstyled">
+                                    <li>4月 入園式
+                                        <ul class="list-unstyled pl-3">
+                                            <li>説明が入ります。</li>
+                                        </ul>
+                                    </li>
+                                    <li>4月 新入園児歓迎会</li>
+                                    <li>5月 親子遠足</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="text-center"> <img src="../img/image200.png" alt="" class="w-50"> </div>
+                    </div>
+                    <div class="col-md-7 d-none d-md-block"> <img src="../img/image120.jpg" alt="" class="img-thumbnail shadow-sm rounded-0"> </div>
                 </div>
-                <div class="col-md-6 py-3"> <img src="img/image100.jpg" alt="" class="w-100 rounded"> </div>
+                <!---------------------------------------- 夏 ---------------------------------------->
+                <div class="row py-4">
+                    <div class="col-md-5 order-md-2">
+                        <div class="row mb-3 mx-0 mx-md-3">
+                            <div class="col-4">
+                                <div class="position-absolute bg-info rounded-circle season">
+                                    <div class="text-center text-white pt-2 h2 rounded-circle">夏</div>
+                                </div>
+                            </div>
+                            <div class="col-8">
+                                <ul class="list-unstyled">
+                                    <li>6月 保育参観</li>
+                                    <li>7月 プール開き
+                                        <ul class="list-unstyled pl-3">
+                                            <li>説明が入ります。</li>
+                                        </ul>
+                                    </li>
+                                    <li>7月 七夕お楽しみ会</li>
+                                    <li>7月 夏まつり</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="text-center"> <img src="../img/image210.png" alt="" class="w-50"> </div>
+                    </div>
+                    <div class="col-md-7 d-none d-md-block"> <img src="../img/image130.jpg" alt="" class="img-thumbnail shadow-sm rounded-0"> </div>
+                </div>
+                <!---------------------------------------- 秋 ---------------------------------------->
+                <div class="row py-4">
+                    <div class="col-md-5">
+                        <div class="row mb-3 mx-0 mx-md-3">
+                            <div class="col-4">
+                                <div class="position-absolute bg-info rounded-circle season">
+                                    <div class="text-center text-white pt-2 h2 rounded-circle">秋</div>
+                                </div>
+                            </div>
+                            <div class="col-8">
+                                <ul class="list-unstyled">
+                                    <li>9月 運動会</li>
+                                    <li>10月 秋の遠足
+                                        <ul class="list-unstyled pl-3">
+                                            <li>説明が入ります。</li>
+                                        </ul>
+                                    </li>
+                                    <li>10月 ハロウィン</li>
+                                    <li>10月 保育参観</li>
+                                    <li>11月 お芋ほり大会</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="text-center"> <img src="../img/image220.png" alt="" class="w-50"> </div>
+                    </div>
+                    <div class="col-md-7 d-none d-md-block"> <img src="../img/image140.jpg" alt="" class="img-thumbnail shadow-sm rounded-0"> </div>
+                </div>
+                <!---------------------------------------- 冬 ---------------------------------------->
+                <div class="row py-4">
+                    <div class="col-md-5 order-md-2">
+                        <div class="row mb-3 mx-0 mx-md-3">
+                            <div class="col-4">
+                                <div class="position-absolute bg-info rounded-circle season">
+                                    <div class="text-center text-white pt-2 h2 rounded-circle">冬</div>
+                                </div>
+                            </div>
+                            <div class="col-8">
+                                <ul class="list-unstyled">
+                                    <li>12月 おゆうぎ会</li>
+                                    <li>12月 クリスマス会
+                                        <ul class="list-unstyled pl-3">
+                                            <li>説明が入ります。</li>
+                                        </ul>
+                                    </li>
+                                    <li>1月 お餅つき</li>
+                                    <li>2月 豆まき</li>
+                                    <li>3月 ひな祭り</li>
+                                    <li>3月 年長さんお別れ会</li>
+                                    <li>3月 卒園式</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="text-center"> <img src="../img/image230.png" alt="" class="w-50"> </div>
+                    </div>
+                    <div class="col-md-7 d-none d-md-block"> <img src="../img/image150.jpg" alt="" class="img-thumbnail shadow-sm rounded-0"> </div>
+                </div>
+                <!---------------------------------------- 秋 ----------------------------------------> 
             </div>
         </div>
         
         <!-- 職員募集 -->
-        <div class="text-center position-relative">
+        <div class="text-center position-relative" id="sec6">
             <h2 class="h3 dot font-weight-bold pt-3 pb-5 px-0 mb-0">講師紹介</h2>
         </div>
         <div class="container mb-5">
@@ -283,6 +386,12 @@
                     <div class="text-center"> <a class="btn btn-info badge-pill text-center px-4" href="https://en-gage.net/terakoyah_jobs/">職員募集のご案内はこちら</a> </div>
                 </div>
             </div>
+        </div>
+    </section>
+    <section class="text-center position-relative" id="sec7">
+        <div class="bg-white half half-lightblue"></div>
+        <div class="text-center position-relative">
+            <h2 class="h3 dot font-weight-bold pt-3 pb-5 px-0 mb-0">アクセス</h2>
         </div>
     </section>
 </main>
@@ -300,11 +409,11 @@
                 <span class="text-white d-none d-md-block">|</span>
                 <li class="mb-3 mb-md-0"><a href="#sec4" class="text-white mx-1">今月の予定</a></li>
                 <span class="text-white d-none d-md-block">|</span>
-                <li class="mb-3 mb-md-0"><a href="#sec5" class="text-white mx-1">園児&amp;職員募集</a></li>
+                <li class="mb-3 mb-md-0"><a href="#sec5" class="text-white mx-1">作品紹介</a></li>
                 <span class="text-white d-none d-md-block">|</span>
-                <li class="mb-3 mb-md-0"><a href="sample/index.php#sec6" class="text-white mx-1">講師紹介</a></li>
+                <li class="mb-3 mb-md-0"><a href="#sec6" class="text-white mx-1">講師紹介</a></li>
                 <span class="text-white d-none d-md-block">|</span>
-                <li class="mb-3 mb-md-0"><a href="sample/index.php#sec7" class="text-white mx-1">アクセス</a></li>
+                <li class="mb-3 mb-md-0"><a href="#sec7" class="text-white mx-1">アクセス</a></li>
                 <span class="text-white d-none d-md-block">|</span>
                 <li class="mb-3 mb-md-0"><a target=”_blank” href="https://kids.athuman.com/search/detail/?store_id=990" class="text-white ml-1">無料体験授業</a></li>
             </ul>
