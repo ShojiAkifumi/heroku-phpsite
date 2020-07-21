@@ -8,7 +8,7 @@
 <body>
     <header>
         <?php
-            header('Location: /header.html');
+            include 'header.html';
         ?>
     </header>
     <h1>
