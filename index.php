@@ -49,7 +49,7 @@
                                     <li class="nav-item"><a class="nav-link text-info" href="#sec5">園児&amp;職員募集</a></li>
                                     <li class="nav-item"><a class="nav-link text-info" href="sample/index.php#sec6">年間行事</a></li>
                                     <li class="nav-item"><a class="nav-link text-info" href="sample/index.php#sec7">１日の過ごし方</a></li>
-                                    <li class="nav-item"><a class="nav-link text-info" href="https://kids.athuman.com/search/detail/?store_id=990">お問合わせ</a></li>
+                                    <li class="nav-item"><a class="nav-link text-info" href="https://kids.athuman.com/search/detail/?store_id=990">無料体験授業</a></li>
                                 </ul>
                             </div>
                         </nav>
@@ -280,7 +280,7 @@
                 <div class="col-md-6 py-3">
                     <h3 class="h4 py-3 text-center font-weight-bold">タイトルが入ります</h3>
                     <p class="h6 mb-4">親譲りの無鉄砲で小供の時から損ばかりしている。小学校に居る時分学校の二階から飛び降りて一週間ほど腰を抜かした事がある。なぜそんな無闇をしたと聞く人があるかも知れぬ。別段深い理由でもない。新築の二階から首を出していたら、次は抜かさずに飛んで見せますと答えた。（青空文庫より）</p>
-                    <div class="text-center"> <a class="btn btn-info badge-pill text-center px-4" href="contact/index.php">職員募集のご案内はこちら</a> </div>
+                    <div class="text-center"> <a class="btn btn-info badge-pill text-center px-4" href="https://en-gage.net/terakoyah_jobs/">職員募集のご案内はこちら</a> </div>
                 </div>
             </div>
         </div>

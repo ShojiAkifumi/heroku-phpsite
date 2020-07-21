@@ -42,7 +42,7 @@
                         <li class="nav-item"><a class="nav-link text-info" href="../index.php#sec5">園児&amp;職員募集</a></li>
                         <li class="nav-item"><a class="nav-link text-info" href="index.php#sec6">年間行事</a></li>
                         <li class="nav-item"><a class="nav-link text-info" href="index.php#sec7">１日の過ごし方</a></li>
-                        <li class="nav-item"><a class="nav-link text-info" href="https://kids.athuman.com/search/detail/?store_id=990">お問合わせ</a></li>
+                        <li class="nav-item"><a class="nav-link text-info" href="https://kids.athuman.com/search/detail/?store_id=990">無料体験授業</a></li>
                     </ul>
                 </div>
             </nav>
