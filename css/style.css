@@ -2,7 +2,7 @@
 /* --------------------------------------------------
     COMMON
 -------------------------------------------------- */
-html { overflow-x: hidden; }
+/* html { overflow-x: hidden; } */
 body, p {
 	line-height: 1.8rem !important;
 	overflow-x: hidden;
