@@ -18,7 +18,7 @@ body, p { line-height: 1.8rem !important; }
 .half-info:after { background: #2dd62a; }
 /* 共通 */
 .half {
-    width: 100%;
+    width: 120%;
     height: 150px;
     border-top-left-radius: 50% 120px;
     border-top-right-radius: 50% 120px;
