@@ -6,7 +6,7 @@ html { overflow-x: hidden; }
 body, p { line-height: 1.8rem !important; }
 .border { border-width: 2px !important; }
 .bg-lightblue {	background: #ddffdd; }
-.bg-green     { background: #37AB9D; }
+.bg-green     { background: #2ee22b; }
 .text-color   { background: #FFC042;  }
 /* 半円背景各種
 -------------------------------------------------- */
@@ -15,7 +15,7 @@ body, p { line-height: 1.8rem !important; }
 /* 半月（背景薄青） */
 .half-lightblue:after { background: #ddffdd; }
 /* 半月（背景緑） */
-.half-info:after { background: #37AB9D; }
+.half-info:after { background: #2ee22b; }
 /* 共通 */
 .half {
     width: 120%;
@@ -95,7 +95,7 @@ header .container-fluid {
 	right: -5px;
 	margin-top: -15px;
 	border: 10px solid transparent;
-	border-left: 30px solid #37AB9D;
+	border-left: 30px solid #2ee22b;
 	z-index: 0;
 	-ms-transform: rotate(45deg);
 	-webkit-transform: rotate(45deg);
@@ -125,8 +125,8 @@ table tr:nth-child(odd) {
 	border: 2.4px dotted #fff;
 }
 .title {
-	border-bottom: 2px solid #37AB9D;
+	border-bottom: 2px solid #2ee22b;
 }
 .stripe {
-	background: repeating-linear-gradient(90deg, #fff 0, #fff 40%, #37AB9D 40%, #37AB9D 60%, #fff 60%, #fff 70%);
+	background: repeating-linear-gradient(90deg, #fff 0, #fff 40%, #2ee22b 40%, #2ee22b 60%, #fff 60%, #fff 70%);
 }
