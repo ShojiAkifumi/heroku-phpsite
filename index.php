@@ -32,11 +32,11 @@
         <h1 class="display-4 catch-copy">キャッチコピーが入ります。</h1>
         <div class="mod-gnav position-absolute w-100" style="bottom: 0;">
             <div class="position-relative pt-5">
-                <div class="half bg-info"></div>
+                <div class="half bg-green"></div>
                 <div class="container">
-                    <div class="position-relative text-center bg-info"> <img src="img/logo.png" alt="" class="logo"> </div>
+                    <div class="position-relative text-center bg-green"> <img src="img/logo.png" alt="" class="logo"> </div>
                 </div>
-                <div class="bg-info py-3">
+                <div class="bg-green py-3">
                     <div class="container px-0">
                         <nav class="navbar navbar-expand-md navbar-light mb-3 px-md-0">
                             <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#Navbar" aria-controls="Navbar" aria-expanded="false" aria-label="ナビゲーションの切替"> <span class="navbar-toggler-icon"></span> </button>
@@ -255,11 +255,11 @@
     
     <!-- 作品紹介 -->
     <section class="position-relative pt-5" id="sec5">
-        <div class="bg-lightblue half half-info"></div>
-        <div class="container text-center position-relative bg-lightblue">
+        <div class="bg-white half half-lightblue"></div>
+        <div class="container text-center position-relative bg-white">
             <h2 class="h3 dot font-weight-bold pt-3 pb-5 px-0 mb-0">作品紹介</h2>
         </div>
-        <div class="bg-lightblue pb-5">
+        <div class="bg-white pb-5">
             <div class="container pb-5"> 
                 
                 <!---------------------------------------- 春 ---------------------------------------->
@@ -268,7 +268,7 @@
                         <div class="row mb-3 mx-0 mx-md-3">
                             <div class="col-4">
                                 <div class="position-absolute bg-info rounded-circle season">
-                                    <div class="text-center text-white pt-2 h2 rounded-circle">春</div>
+                                    <div class="text-center text-white pt-2 h2 rounded-circle">Lv.1</div>
                                 </div>
                             </div>
                             <div class="col-8">
@@ -283,9 +283,9 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="text-center"> <img src="../img/image200.png" alt="" class="w-50"> </div>
+                        <div class="text-center"> <img src="img/image200.png" alt="" class="w-50"> </div>
                     </div>
-                    <div class="col-md-7 d-none d-md-block"> <img src="../img/image120.jpg" alt="" class="img-thumbnail shadow-sm rounded-0"> </div>
+                    <div class="col-md-7 d-none d-md-block"> <img src="img/image120.jpg" alt="" class="img-thumbnail shadow-sm rounded-0"> </div>
                 </div>
                 <!---------------------------------------- 夏 ---------------------------------------->
                 <div class="row py-4">
@@ -293,7 +293,7 @@
                         <div class="row mb-3 mx-0 mx-md-3">
                             <div class="col-4">
                                 <div class="position-absolute bg-info rounded-circle season">
-                                    <div class="text-center text-white pt-2 h2 rounded-circle">夏</div>
+                                    <div class="text-center text-white pt-2 h2 rounded-circle">Lv.2</div>
                                 </div>
                             </div>
                             <div class="col-8">
@@ -309,9 +309,9 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="text-center"> <img src="../img/image210.png" alt="" class="w-50"> </div>
+                        <div class="text-center"> <img src="img/image210.png" alt="" class="w-50"> </div>
                     </div>
-                    <div class="col-md-7 d-none d-md-block"> <img src="../img/image130.jpg" alt="" class="img-thumbnail shadow-sm rounded-0"> </div>
+                    <div class="col-md-7 d-none d-md-block"> <img src="img/image130.jpg" alt="" class="img-thumbnail shadow-sm rounded-0"> </div>
                 </div>
                 <!---------------------------------------- 秋 ---------------------------------------->
                 <div class="row py-4">
@@ -319,7 +319,7 @@
                         <div class="row mb-3 mx-0 mx-md-3">
                             <div class="col-4">
                                 <div class="position-absolute bg-info rounded-circle season">
-                                    <div class="text-center text-white pt-2 h2 rounded-circle">秋</div>
+                                    <div class="text-center text-white pt-2 h2 rounded-circle">Lv.3</div>
                                 </div>
                             </div>
                             <div class="col-8">
@@ -336,9 +336,9 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="text-center"> <img src="../img/image220.png" alt="" class="w-50"> </div>
+                        <div class="text-center"> <img src="img/image220.png" alt="" class="w-50"> </div>
                     </div>
-                    <div class="col-md-7 d-none d-md-block"> <img src="../img/image140.jpg" alt="" class="img-thumbnail shadow-sm rounded-0"> </div>
+                    <div class="col-md-7 d-none d-md-block"> <img src="img/image140.jpg" alt="" class="img-thumbnail shadow-sm rounded-0"> </div>
                 </div>
                 <!---------------------------------------- 冬 ---------------------------------------->
                 <div class="row py-4">
@@ -346,7 +346,7 @@
                         <div class="row mb-3 mx-0 mx-md-3">
                             <div class="col-4">
                                 <div class="position-absolute bg-info rounded-circle season">
-                                    <div class="text-center text-white pt-2 h2 rounded-circle">冬</div>
+                                    <div class="text-center text-white pt-2 h2 rounded-circle">Lv.4</div>
                                 </div>
                             </div>
                             <div class="col-8">
@@ -365,19 +365,22 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="text-center"> <img src="../img/image230.png" alt="" class="w-50"> </div>
+                        <div class="text-center"> <img src="img/image230.png" alt="" class="w-50"> </div>
                     </div>
-                    <div class="col-md-7 d-none d-md-block"> <img src="../img/image150.jpg" alt="" class="img-thumbnail shadow-sm rounded-0"> </div>
+                    <div class="col-md-7 d-none d-md-block"> <img src="img/image150.jpg" alt="" class="img-thumbnail shadow-sm rounded-0"> </div>
                 </div>
                 <!---------------------------------------- 秋 ----------------------------------------> 
             </div>
         </div>
-        
-        <!-- 職員募集 -->
-        <div class="text-center position-relative" id="sec6">
+    </section>
+    
+    <!-- 講師紹介 -->
+    <section class="position-relative pt-5" id="sec6">
+        <div class="bg-lightblue half half-white"></div>
+        <div class="text-center position-relative bg-lightblue">
             <h2 class="h3 dot font-weight-bold pt-3 pb-5 px-0 mb-0">講師紹介</h2>
         </div>
-        <div class="container mb-5">
+        <div class="bg-lightblue pb-5">
             <div class="row">
                 <div class="col-md-6 py-3"> <img src="img/image110.jpg" alt="" class="w-100 rounded"> </div>
                 <div class="col-md-6 py-3">
@@ -397,8 +400,8 @@
 </main>
 <footer class="position-relative pt-5"> 
     <!-- フッターナビ -->
-    <div class="half bg-info"></div>
-    <div class="bg-info pb-3 position-relative">
+    <div class="half bg-green"></div>
+    <div class="bg-green pb-3 position-relative">
         <div class="container mt-3">
             <ul class="d-md-flex justify-content-center justify-content-md-between flex-wrap h6 list-unstyled pb-4">
                 <li class="mb-3 mb-md-0"><a href="#sec1" class="text-white mr-1">コース紹介</a></li>
@@ -431,7 +434,7 @@
             </div>
         </div>
         <hr style="border-color: #fff;">
-        <p class="mb-0 pt-2 text-white text-center mod-copyright">20XX &copy; あなたのサイト名</p>
+        <p class="mb-0 pt-2 text-white text-center mod-copyright">2020 &copy; あなたのサイト名</p>
         <div class="row"> </div>
     </div>
 </footer>
