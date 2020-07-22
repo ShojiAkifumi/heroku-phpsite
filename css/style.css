@@ -3,7 +3,10 @@
     COMMON
 -------------------------------------------------- */
 html { overflow-x: hidden; }
-body, p { line-height: 1.8rem !important; }
+body, p {
+	line-height: 1.8rem !important;
+	overflow-x: hidden;
+}
 .border { border-width: 2px !important; }
 .bg-lightblue {	background: #ddffdd; }
 .bg-green     { background: #2dd62a; }
