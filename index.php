@@ -68,7 +68,7 @@
             <h2 class="h3 dot font-weight-bold pt-3 pb-5 px-0 mb-0">ロボット教室とは</h2>
         </div>
         <div class="continer-fluid bg-lightblue pb-3">
-            <div class="container text-center pb-5">
+            <div class="container text-center pb-5" style="margin-top:0.5em;">
                 <p>親譲りの無鉄砲で小供の時から損ばかりしている。<br>
                     小学校に居る時分学校の二階から飛び降りて一週間ほど腰を抜かした事がある。</p>
                 <p>なぜそんな無闇をしたと聞く人があるかも知れぬ。<br>
@@ -191,7 +191,7 @@
         <div class="container text-center position-relative bg-lightblue">
             <h2 class="h3 dot font-weight-bold pt-3 pb-5 px-0 mb-0">今月の予定</h2>
         </div>
-        <div class="continer-fluid bg-lightblue pb-3">
+        <div class="continer-fluid bg-lightblue pb-3" style="margin-top:0.5em;">
             <div class="container pb-5">
                 <div>
                     <ul class="px-0">
