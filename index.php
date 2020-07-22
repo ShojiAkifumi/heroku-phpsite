@@ -65,7 +65,7 @@
     <section class="position-relative pt-5">
         <div class="bg-lightblue half half-info"></div>
         <div class="container text-center position-relative bg-lightblue">
-            <h2 class="h3 dot font-weight-bold pt-3 pb-5 px-0 mb-0">ようこそ！SAMPLE園へ</h2>
+            <h2 class="h3 dot font-weight-bold pt-3 pb-5 px-0 mb-0">ロボット・プログラミング教室とは</h2>
         </div>
         <div class="continer-fluid bg-lightblue pb-3">
             <div class="container text-center pb-5">
