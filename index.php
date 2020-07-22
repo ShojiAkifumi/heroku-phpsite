@@ -111,31 +111,31 @@
             <div class="container pt-5">
                 <div class="row mb-0 mb-md-3">
                     <div class="col-md-6 py-4 mb-5 mb-md-0 px-4 position-relative">
-                        <div class="bg-info position-absolute rounded-circle d-flex justify-content-center align-items-center balloon">
+                        <div class="bg-green position-absolute rounded-circle d-flex justify-content-center align-items-center balloon">
                             <p class="text-white text-center pt-4 px-2">施設の説明が入ります。</p>
                         </div>
                         <img src="img/image050.jpg" alt="" class="w-100 rounded"> </div>
                     <div class="col-md-6 py-4 mb-5 mb-md-0 px-4 position-relative">
-                        <div class="bg-info position-absolute rounded-circle d-flex justify-content-center align-items-center balloon">
+                        <div class="bg-green position-absolute rounded-circle d-flex justify-content-center align-items-center balloon">
                             <p class="text-white text-center pt-4 px-2">施設の説明が入ります。</p>
                         </div>
                         <img src="img/image070.jpg" alt="" class="w-100 rounded"> </div>
                 </div>
                 <div class="row">
                     <div class="col-md-4 py-4 mb-5 mb-md-0 px-4 position-relative">
-                        <div class="bg-info position-absolute rounded-circle d-flex justify-content-center align-items-center balloon-s">
+                        <div class="bg-green position-absolute rounded-circle d-flex justify-content-center align-items-center balloon-s">
                             <p class="text-white text-center pt-4 px-2">施設の説明が入ります。</p>
                         </div>
                         <div class="position-absolute"> </div>
                         <img src="img/image040.jpg" alt="" class="w-100 rounded"> </div>
                     <div class="col-md-4 py-4 mb-5 mb-md-0 px-4 position-relative">
-                        <div class="bg-info position-absolute rounded-circle d-flex justify-content-center align-items-center balloon-s">
+                        <div class="bg-green position-absolute rounded-circle d-flex justify-content-center align-items-center balloon-s">
                             <p class="text-white text-center pt-4 px-2">施設の説明が入ります。</p>
                         </div>
                         <div class="position-absolute"> </div>
                         <img src="img/image060.jpg" alt="" class="w-100 rounded"> </div>
                     <div class="col-md-4 pt-4 mb-5 mb-md-0 px-4 position-relative">
-                        <div class="bg-info position-absolute rounded-circle d-flex justify-content-center align-items-center balloon-s">
+                        <div class="bg-green position-absolute rounded-circle d-flex justify-content-center align-items-center balloon-s">
                             <p class="text-white text-center pt-4 px-2">施設の説明が入ります。</p>
                         </div>
                         <div class="position-absolute"> </div>
@@ -267,7 +267,7 @@
                     <div class="col-md-5">
                         <div class="row mb-3 mx-0 mx-md-3">
                             <div class="col-4">
-                                <div class="position-absolute bg-info rounded-circle season">
+                                <div class="position-absolute bg-green rounded-circle season">
                                     <div class="text-center text-white pt-2 h2 rounded-circle">Lv.1</div>
                                 </div>
                             </div>
@@ -292,7 +292,7 @@
                     <div class="col-md-5 order-md-2">
                         <div class="row mb-3 mx-0 mx-md-3">
                             <div class="col-4">
-                                <div class="position-absolute bg-info rounded-circle season">
+                                <div class="position-absolute bg-green rounded-circle season">
                                     <div class="text-center text-white pt-2 h2 rounded-circle">Lv.2</div>
                                 </div>
                             </div>
@@ -318,7 +318,7 @@
                     <div class="col-md-5">
                         <div class="row mb-3 mx-0 mx-md-3">
                             <div class="col-4">
-                                <div class="position-absolute bg-info rounded-circle season">
+                                <div class="position-absolute bg-green rounded-circle season">
                                     <div class="text-center text-white pt-2 h2 rounded-circle">Lv.3</div>
                                 </div>
                             </div>
@@ -345,7 +345,7 @@
                     <div class="col-md-5 order-md-2">
                         <div class="row mb-3 mx-0 mx-md-3">
                             <div class="col-4">
-                                <div class="position-absolute bg-info rounded-circle season">
+                                <div class="position-absolute bg-green rounded-circle season">
                                     <div class="text-center text-white pt-2 h2 rounded-circle">Lv.4</div>
                                 </div>
                             </div>
