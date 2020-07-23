@@ -161,6 +161,10 @@ table tr:nth-child(odd) {
 	text-align: center;
 }
 /* ---------マップ ----------*/
+.map iframe{
+	width: 90%;
+	text-align: center;
+}
 .access{
 	padding-bottom: 100px;
 }

@@ -34,9 +34,9 @@
         <div class="mod-gnav position-absolute w-100" style="bottom: 0;">
             <div class="position-relative pt-5">
                 <div class="half bg-green"></div>
-                <div class="container">
+                <!-- <div class="container">
                     <div class="position-relative text-center bg-green"> <img src="img/logo.png" alt="" class="logo"> </div>
-                </div>
+                </div> -->
                 <div class="bg-green py-3">
                     <div class="container px-0">
                         <nav class="navbar navbar-expand-md navbar-light mb-3 px-md-0">
@@ -346,7 +346,7 @@
             </div>
             <div class="col-lg-6">
                 <div class="map">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6783.683441799663!2d137.85025071446287!3d34.71884201489116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601ae4322de5a901%3A0xb9624aa9ac725f08!2z56OQ55Sw5biCIOODr-ODvOOCr-ODlOOCouejkOeUsA!5e0!3m2!1sja!2sjp!4v1595494026840!5m2!1sja!2sjp" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3279.452755802268!2d137.85250531546026!3d34.718980380337236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601ae4322de5a901%3A0xb9624aa9ac725f08!2z56OQ55Sw5biCIOODr-ODvOOCr-ODlOOCouejkOeUsA!5e0!3m2!1sja!2sjp!4v1595507830338!5m2!1sja!2sjp" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                 </div>
             </div>
         </div>
