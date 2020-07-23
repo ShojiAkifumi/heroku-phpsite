@@ -45,11 +45,11 @@
                                 <ul class="navbar-nav w-100 justify-content-around">
                                     <li class="nav-item"><a class="nav-link text-info" href="#sec1"><span>ロボット</span><span>教室とは</span></a></li>
                                     <li class="nav-item"><a class="nav-link text-info" href="#sec2">コース紹介</a></li>
-                                    <li class="nav-item"><a class="nav-link text-info" href="#sec3">教室の様子</a></li>
+                                    <li class="nav-item"><a class="nav-link text-info" href="#sec3">教室のようす</a></li>
                                     <li class="nav-item"><a class="nav-link text-info" href="#sec4">お知らせ</a></li>
                                     <li class="nav-item"><a class="nav-link text-info" href="#sec5">今月の予定</a></li>
                                     <li class="nav-item"><a class="nav-link text-info" href="#sec6">アクセス</a></li>
-                                    <li class="nav-item"><a class="nav-link text-info" target=”_blank” href="https://kids.athuman.com/search/detail/?store_id=990"><span>無料</span><span>体験授業</span></a></li>
+                                    <li class="nav-item"><a class="nav-link text-info" target=”_blank” href="https://kids.athuman.com"><span>ヒューマン</span><span>アカデミー</span></a></li>
                                 </ul>
                             </div>
                         </nav>
@@ -145,7 +145,7 @@
     <section class="position-relative pt-5" id="sec3">
         <div class="bg-lightblue half half-white"></div>
         <div class="container text-center position-relative bg-lightblue">
-            <h2 class="h3 dot font-weight-bold pt-3 pb-5 px-0 mb-0">TERAKOYA浜松のようす</h2>
+            <h2 class="h3 dot font-weight-bold pt-3 pb-5 px-0 mb-0">教室のようす</h2>
         </div>
         <div class="continer-fluid pb-5 bg-lightblue">
             <div class="container pt-5">
@@ -396,7 +396,7 @@
                 <span class="text-white d-none d-md-block">|</span>
                 <li class="mb-3 mb-md-0"><a href="#sec2" class="text-white mx-1">コース紹介</a></li>
                 <span class="text-white d-none d-md-block">|</span>
-                <li class="mb-3 mb-md-0"><a href="#sec3" class="text-white mx-1">教室の様子</a></li>
+                <li class="mb-3 mb-md-0"><a href="#sec3" class="text-white mx-1">教室のようす</a></li>
                 <span class="text-white d-none d-md-block">|</span>
                 <li class="mb-3 mb-md-0"><a href="#sec4" class="text-white mx-1">お知らせ</a></li>
                 <span class="text-white d-none d-md-block">|</span>
@@ -404,7 +404,7 @@
                 <span class="text-white d-none d-md-block">|</span>
                 <li class="mb-3 mb-md-0"><a href="#sec6" class="text-white mx-1">アクセス</a></li>
                 <span class="text-white d-none d-md-block">|</span>
-                <li class="mb-3 mb-md-0"><a target=”_blank” href="https://kids.athuman.com/search/detail/?store_id=990" class="text-white ml-1">無料体験授業</a></li>
+                <li class="mb-3 mb-md-0"><a target=”_blank” href="https://kids.athuman.com" class="text-white ml-1">ヒューマンアカデミー</a></li>
             </ul>
             <div class="row px-md-0">
                 <div class="col-md-6">
