@@ -196,8 +196,8 @@
                 <div class="row">
                     <div class="col-md-5 py-3"> <img src="img/zenchan.jpg" alt="" class="w-100 rounded"> </div>
                     <div class="col-md-7 py-5 info">
-                        <h3 class="mb-3 text-center font-weight-bold">「ザ！鉄腕！DASH！！」の実験企画に制作・出演している北沢善一先生のサイエンスショー</h3>
-                        <h4 class="text-center mb-3">子どもも大人も必見！　善ちゃんの笑ってダメになるサイエンスショー～びっくり静電気実験から人工衛星「はやぶさ」のイオンエンジン体験～</h4>
+                        <h4 class="mb-3 text-center font-weight-bold">「ザ！鉄腕！DASH！！」の実験企画に制作・出演している北沢善一先生のサイエンスショー</h4>
+                        <h5 class="text-center mb-3">子どもも大人も必見！　善ちゃんの笑ってダメになるサイエンスショー～びっくり静電気実験から人工衛星「はやぶさ」のイオンエンジン体験～</h5>
                         <h5 class="font-weight-bold mb-3 text-center" style="line-height: 1.8rem">日　時：2016年2月7日（日）<br> 第一部10:30～11:30 第二部13:00～14:00<br>
                             場　所：アクトシティ研修交流センター<br>
                             　　　　(62会議室)楽器博物館建物内<br>
