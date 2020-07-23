@@ -85,7 +85,7 @@
         <div class="container text-center position-relative bg-white_y">
             <h2 class="h3 dot font-weight-bold pt-3 pb-5 px-0 mb-0">コース紹介</h2>
         </div>
-        <div class="bg-white_y" style="text-align: center; font-size: 19px; padding-top: 1em;">お子さまのレベルを上げ続けていける4つのコース編成を用意しました。</div>
+        <div class="bg-white_y" style="text-align: center; font-size: 19px; padding-top: 1em;">お子さまのレベルを上げ続けていけるコース編成を用意しました。</div>
         <div class="bg-white_y pb-5">
             <div class="container pb-5"> 
                 <!---------------------------------------- プライマリーコース ---------------------------------------->
@@ -96,7 +96,7 @@
                             <p>対象学年：幼児～小学校低学年</p>
                             <p>テキストを見ながら、動くロボットを自らの手で作りあげることで、自然と文字を読む力・数を数える力を養います。</p>
                         </div>
-                        <div class="text-center"> <img src="img/image200.png" alt="" class="w-50"> </div>
+                        <div class="text-center robo-img"> <img src="img/p_robo.png" alt="" class="w-75" style="border: 5px solid #e366ba;"> </div>
                     </div>
                     <div class="col-md-7"> <img src="img/image010.jpg" alt="" class="img-thumbnail shadow-sm rounded-0"> </div>
                 </div>
@@ -108,7 +108,7 @@
                             <p>対象学年：小学生</p>
                             <p>テキストを見ながら、ロボットを正確に製作することで構造や動きの仕組みを学び、自分だけのロボットに改造出来るようになります。</p>
                         </div>
-                        <div class="text-center"> <img src="img/image210.png" alt="" class="w-50"> </div>
+                        <div class="text-center robo-img"> <img src="img/b_robo.png" alt="" class="w-75" style="border: 5px solid #f3b20a;"> </div>
                     </div>
                     <div class="col-md-7"> <img src="img/image020.jpg" alt="" class="img-thumbnail shadow-sm rounded-0"> </div>
                 </div>
@@ -121,7 +121,7 @@
                             <p>より複雑な構造のロボットを製作。<br>
                                 タブレットを用いて初歩的なプログラム作成にも取り組み、基礎的なプログラミングを理解した上でロボットを制御できるようになります。</p>
                         </div>
-                        <div class="text-center"> <img src="img/image220.png" alt="" class="w-50"> </div>
+                        <div class="text-center robo-img"> <img src="img/m_robo.png" alt="" class="w-75" style="border: 5px solid #49aa48;"> </div>
                     </div>
                     <div class="col-md-7"> <img src="img/image030.jpg" alt="" class="img-thumbnail shadow-sm rounded-0"> </div>
                 </div>
@@ -133,9 +133,22 @@
                             <p><span>対象学年：</span><span>小学校中学年～</span><span>（ミドルコース修了生）</span></p>
                             <p>ロボットが思い通りの動きをするように、ロボットやプログラムの調整を自ら考えながら進めます。実験や観察の内容もより高度になり、到達目標を明確にしてロボットやプログラムの開発ができるになります。</p>
                         </div>
-                        <div class="text-center"> <img src="img/image230.png" alt="" class="w-50"> </div>
+                        <div class="text-center robo-img"> <img src="img/a_robo.png" alt="" class="w-75" style="border: 5px solid #2ca8ee;"> </div>
                     </div>
                     <div class="col-md-7"> <img src="img/image035.jpg" alt="" class="img-thumbnail shadow-sm rounded-0"> </div>
+                </div>
+                <!---------------------------------------- ロボティクスプロフェッサーコース ---------------------------------------->
+                <div class="row py-4">
+                    <div class="col-md-5">
+                        <h3 class="h5 py-3 text-center font-weight-bold" style="color: #1e5ea0;">ロボティクスプロフェッサーコース</h3>
+                        <div class="h6">
+                            <p>対象学年：小学校高学年・中学生～</p>
+                            <p>ロボット工学の基礎が習得できます。<br>
+                                さまざまな処理を具体的に考えることにより、実践的な力が身につき、日本のこれからを支えるロボットクリエイターやロボット博士を育成します。</p>
+                        </div>
+                        <div class="text-center robo-img"> <img src="img/pro_robo.png" alt="" class="w-75" style="border: 5px solid #1e5ea0;"> </div>
+                    </div>
+                    <div class="col-md-7"> <img src="img/robopro.jpg" alt="" class="img-thumbnail shadow-sm rounded-0"> </div>
                 </div>
             </div>
         </div>
@@ -152,31 +165,31 @@
                 <div class="row mb-0 mb-md-3">
                     <div class="col-md-6 py-4 mb-5 mb-md-0 px-4 position-relative">
                         <div class="bg-green position-absolute rounded-circle d-flex justify-content-center align-items-center balloon">
-                            <p class="text-white text-center pt-4 px-2">説明が入ります。</p>
+                            <p class="text-white text-center pt-4 px-2">コメントを入れる予定。</p>
                         </div>
                         <img src="img/image050.jpg" alt="" class="w-100 rounded"> </div>
                     <div class="col-md-6 py-4 mb-5 mb-md-0 px-4 position-relative">
                         <div class="bg-green position-absolute rounded-circle d-flex justify-content-center align-items-center balloon">
-                            <p class="text-white text-center pt-4 px-2">説明が入ります。</p>
+                            <p class="text-white text-center pt-4 px-2">コメントを入れる予定。</p>
                         </div>
                         <img src="img/image070.jpg" alt="" class="w-100 rounded"> </div>
                 </div>
                 <div class="row">
                     <div class="col-md-4 py-4 mb-5 mb-md-0 px-4 position-relative">
                         <div class="bg-green position-absolute rounded-circle d-flex justify-content-center align-items-center balloon-s">
-                            <p class="text-white text-center pt-4 px-2">説明が入ります。</p>
+                            <p class="text-white text-center pt-4 px-2">コメントを入れる予定。</p>
                         </div>
                         <div class="position-absolute"> </div>
                         <img src="img/image040.jpg" alt="" class="w-100 rounded"> </div>
                     <div class="col-md-4 py-4 mb-5 mb-md-0 px-4 position-relative">
                         <div class="bg-green position-absolute rounded-circle d-flex justify-content-center align-items-center balloon-s">
-                            <p class="text-white text-center pt-4 px-2">説明が入ります。</p>
+                            <p class="text-white text-center pt-4 px-2">コメントを入れる予定。</p>
                         </div>
                         <div class="position-absolute"> </div>
                         <img src="img/image060.jpg" alt="" class="w-100 rounded"> </div>
                     <div class="col-md-4 pt-4 mb-5 mb-md-0 px-4 position-relative">
                         <div class="bg-green position-absolute rounded-circle d-flex justify-content-center align-items-center balloon-s">
-                            <p class="text-white text-center pt-4 px-2">説明が入ります。</p>
+                            <p class="text-white text-center pt-4 px-2">コメントを入れる予定。</p>
                         </div>
                         <div class="position-absolute"> </div>
                         <img src="img/image080.jpg" alt="" class="w-100 rounded"> </div>
@@ -236,7 +249,7 @@
                 <div class="row pt-3 border-bottom">
                     <div class="col-4 col-sm-3 col-md-2 h5 font-weight-normal">2020.7.20</div>
                     <div class="col-4 col-sm-3 col-md-2 h6 text-center"><span class="badge badge-pill badge-success px-3 py-1">イベント</span></div>
-                    <div class="col-md-8 h6">イベントの文章がはいります。</div>
+                    <div class="col-md-8 h6">イベントの文章を入れる予定。</div>
                 </div>
                 <div class="row pt-3 mb-5 border-bottom">
                     <div class="col-4 col-sm-3 col-md-2 h5 font-weight-normal">2020.7.10</div>
@@ -262,6 +275,7 @@
                         <li class="d-inline-block"><i class="fas fa-circle" style="color:#f3b20a;"></i>...ベーシックコース</li>
                         <li class="d-inline-block"><i class="fas fa-circle" style="color:#49aa48;"></i>...ミドルコース</li>
                         <li class="d-inline-block"><i class="fas fa-circle" style="color:#2ca8ee;"></i>...アドバンスコース</li>
+                        <li class="d-inline-block"><i class="fas fa-circle" style="color:#1e5ea0;"></i>...ロボティクスプロフェッサーコース</li>
                     </ul>
                 </div>
                 <table class="table bg-white_y">
