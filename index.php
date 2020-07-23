@@ -28,8 +28,9 @@
 </head>
 <body>
 <header>
-    <div class="container-fluid position-relative px-0">
-        <h1 class="display-4 catch-copy">キャッチコピーが入ります。</h1>
+    <div class="facebook"><a href="https://www.facebook.com/terakoya.hamamatsu/" target="_blank"><i class="fab fa-facebook"></i></a></div>
+    <div class="container-fluid position-relative px-0" id="sec0">
+        <h1 class="display-4 catch-copy">ＴＥＲＡＫＯＹＡ浜松</h1>
         <div class="mod-gnav position-absolute w-100" style="bottom: 0;">
             <div class="position-relative pt-5">
                 <div class="half bg-green"></div>
@@ -42,14 +43,13 @@
                             <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#Navbar" aria-controls="Navbar" aria-expanded="false" aria-label="ナビゲーションの切替"> <span class="navbar-toggler-icon"></span> </button>
                             <div class="collapse navbar-collapse" id="Navbar">
                                 <ul class="navbar-nav w-100 justify-content-around">
-                                    <li class="nav-item"><a class="nav-link text-info" href="#sec1">SAMPLE園の特色</a></li>
+                                    <li class="nav-item"><a class="nav-link text-info" href="#sec1"><span>ロボット</span><span>教室とは</span></a></li>
                                     <li class="nav-item"><a class="nav-link text-info" href="#sec2">コース紹介</a></li>
-                                    <li class="nav-item"><a class="nav-link text-info" href="#sec3">お知らせ</a></li>
-                                    <li class="nav-item"><a class="nav-link text-info" href="#sec4">今月の予定</a></li>
-                                    <li class="nav-item"><a class="nav-link text-info" href="#sec5">作品紹介</a></li>
-                                    <li class="nav-item"><a class="nav-link text-info" href="#sec6">講師紹介</a></li>
-                                    <li class="nav-item"><a class="nav-link text-info" href="#sec7">アクセス</a></li>
-                                    <li class="nav-item"><a class="nav-link text-info" target=”_blank” href="https://kids.athuman.com/search/detail/?store_id=990">無料<br>体験授業</a></li>
+                                    <li class="nav-item"><a class="nav-link text-info" href="#sec3">教室の様子</a></li>
+                                    <li class="nav-item"><a class="nav-link text-info" href="#sec4">お知らせ</a></li>
+                                    <li class="nav-item"><a class="nav-link text-info" href="#sec5">今月の予定</a></li>
+                                    <li class="nav-item"><a class="nav-link text-info" href="#sec6">アクセス</a></li>
+                                    <li class="nav-item"><a class="nav-link text-info" target=”_blank” href="https://kids.athuman.com/search/detail/?store_id=990"><span>無料</span><span>体験授業</span></a></li>
                                 </ul>
                             </div>
                         </nav>
@@ -60,83 +60,123 @@
     </div>
 </header>
 <main> 
-    
-    <!-- 〇〇園へようこそ！ -->
-    <section class="position-relative pt-5">
+    <!-- ロボット教室とは！ -->
+    <section class="position-relative pt-5"id="sec1">
         <div class="bg-lightblue half half-info"></div>
         <div class="container text-center position-relative bg-lightblue">
             <h2 class="h3 dot font-weight-bold pt-3 pb-5 px-0 mb-0">ロボット教室とは</h2>
         </div>
         <div class="continer-fluid bg-lightblue pb-3" style="padding-top:0.7em;">
             <div class="container text-center pb-5">
-                <p>親譲りの無鉄砲で小供の時から損ばかりしている。<br>
-                    小学校に居る時分学校の二階から飛び降りて一週間ほど腰を抜かした事がある。</p>
-                <p>なぜそんな無闇をしたと聞く人があるかも知れぬ。<br>
-                    別段深い理由でもない。新築の二階から首を出していたら、次は抜かさずに飛んで見せますと答えた。</p>
+                <p>(テスト)ヒューマンアカデミーロボット教室は、2019年6月に10周年を迎えました。<br>
+                    パイオニアとして開講した当初から、類似教室があふれる今もなお、<br>
+                    国内No.1シェアを守り続けています。</p>
+                <p>揺るぎない実績の数々は以下にご覧いただけますが、<br>
+                    支持される理由はそれらだけではありません。</p>
+                <p>世界に名だたるロボットクリエイターが、教材を含むすべてのカリキュラムを監修しているのは<br>
+                    ヒューマンアカデミーロボット教室だけです。</p>
             </div>
         </div>
     </section>
     
-    <!-- 〇〇園の特色 -->
-    <section class="position-relative pt-5" id="sec1">
-        <div class="bg-white half half-lightblue"></div>
-        <div class="text-center position-relative">
-            <h2 class="h3 dot font-weight-bold pt-3 pb-5 mb-0">コース紹介</h2>
-        </div>
-        <div class="container pb-5">
-            <div class="row pb-5 ">
-                <div class="col-md-4 py-3"> <img src="img/image010.jpg" alt="" class="w-100 rounded-circle mb-4">
-                    <h3 class="h5 py-3 text-center font-weight-bold">ミドルコース</h3>
-                    <p class="h6">親譲りの無鉄砲で小供の時から損ばかりしている。小学校に居る時分学校の二階から飛び降りて一週間ほど腰を抜かした事がある。</p>
-                </div>
-                <div class="col-md-4 py-3"> <img src="img/image020.jpg" alt="" class="w-100 rounded-circle mb-4">
-                    <h3 class="h5 py-3 text-center font-weight-bold">プライマリーコース</h3>
-                    <p class="h6">親譲りの無鉄砲で小供の時から損ばかりしている。小学校に居る時分学校の二階から飛び降りて一週間ほど腰を抜かした事がある。</p>
-                </div>
-                <div class="col-md-4 py-3"> <img src="img/image030.jpg" alt="" class="w-100 rounded-circle mb-4">
-                    <h3 class="h5 py-3 text-center font-weight-bold">プロフェッサーコース</h3>
-                    <p class="h6">親譲りの無鉄砲で小供の時から損ばかりしている。小学校に居る時分学校の二階から飛び降りて一週間ほど腰を抜かした事がある。</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    
-    <!-- 〇〇園のようす -->
+    <!-- コース紹介 -->
     <section class="position-relative pt-5" id="sec2">
+        <div class="bg-white_y half half-lightblue"></div>
+        <div class="container text-center position-relative bg-white_y">
+            <h2 class="h3 dot font-weight-bold pt-3 pb-5 px-0 mb-0">コース紹介</h2>
+        </div>
+        <div class="bg-white_y" style="text-align: center; font-size: 19px; padding-top: 1em;">お子さまのレベルを上げ続けていける4つのコース編成を用意しました。</div>
+        <div class="bg-white_y pb-5">
+            <div class="container pb-5"> 
+                <!---------------------------------------- プライマリーコース ---------------------------------------->
+                <div class="row py-4">
+                    <div class="col-md-5">
+                        <h3 class="h5 py-3 text-center font-weight-bold" style="color: #e366ba;">プライマリーコース</h3>
+                        <div class="h6">
+                            <p>対象学年：幼児～小学校低学年</p>
+                            <p>テキストを見ながら、動くロボットを自らの手で作りあげることで、自然と文字を読む力・数を数える力を養います。</p>
+                        </div>
+                        <div class="text-center"> <img src="img/image200.png" alt="" class="w-50"> </div>
+                    </div>
+                    <div class="col-md-7"> <img src="img/image010.jpg" alt="" class="img-thumbnail shadow-sm rounded-0"> </div>
+                </div>
+                <!---------------------------------------- ベーシックコース ---------------------------------------->
+                <div class="row py-4">
+                    <div class="col-md-5 order-md-2">
+                        <h3 class="h5 py-3 text-center font-weight-bold" style="color: #f3b20a;">ベーシックコース</h3>
+                        <div class="h6">
+                            <p>対象学年：小学生</p>
+                            <p>テキストを見ながら、ロボットを正確に製作することで構造や動きの仕組みを学び、自分だけのロボットに改造出来るようになります。</p>
+                        </div>
+                        <div class="text-center"> <img src="img/image210.png" alt="" class="w-50"> </div>
+                    </div>
+                    <div class="col-md-7"> <img src="img/image020.jpg" alt="" class="img-thumbnail shadow-sm rounded-0"> </div>
+                </div>
+                <!---------------------------------------- ミドルコース ---------------------------------------->
+                <div class="row py-4">
+                    <div class="col-md-5">
+                        <h3 class="h5 py-3 text-center font-weight-bold" style="color: #49aa48;">ミドルコース</h3>
+                        <div class="h6">
+                            <p>対象学年：小学生</p>
+                            <p>より複雑な構造のロボットを製作。<br>
+                                タブレットを用いて初歩的なプログラム作成にも取り組み、基礎的なプログラミングを理解した上でロボットを制御できるようになります。</p>
+                        </div>
+                        <div class="text-center"> <img src="img/image220.png" alt="" class="w-50"> </div>
+                    </div>
+                    <div class="col-md-7"> <img src="img/image030.jpg" alt="" class="img-thumbnail shadow-sm rounded-0"> </div>
+                </div>
+                <!---------------------------------------- アドバンスコース ---------------------------------------->
+                <div class="row py-4">
+                    <div class="col-md-5 order-md-2">
+                        <h3 class="h5 py-3 text-center font-weight-bold" style="color: #2ca8ee;">アドバンスコース</h3>
+                        <div class="h6">
+                            <p><span>対象学年：</span><span>小学校中学年～</span><span>（ミドルコース修了生）</span></p>
+                            <p>ロボットが思い通りの動きをするように、ロボットやプログラムの調整を自ら考えながら進めます。実験や観察の内容もより高度になり、到達目標を明確にしてロボットやプログラムの開発ができるになります。</p>
+                        </div>
+                        <div class="text-center"> <img src="img/image230.png" alt="" class="w-50"> </div>
+                    </div>
+                    <div class="col-md-7"> <img src="img/image035.jpg" alt="" class="img-thumbnail shadow-sm rounded-0"> </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- 教室の様子 -->
+    <section class="position-relative pt-5" id="sec3">
         <div class="bg-lightblue half half-white"></div>
         <div class="container text-center position-relative bg-lightblue">
-            <h2 class="h3 dot font-weight-bold pt-3 pb-5 px-0 mb-0">SAMPLE園のようす</h2>
+            <h2 class="h3 dot font-weight-bold pt-3 pb-5 px-0 mb-0">TERAKOYA浜松のようす</h2>
         </div>
         <div class="continer-fluid pb-5 bg-lightblue">
             <div class="container pt-5">
                 <div class="row mb-0 mb-md-3">
                     <div class="col-md-6 py-4 mb-5 mb-md-0 px-4 position-relative">
                         <div class="bg-green position-absolute rounded-circle d-flex justify-content-center align-items-center balloon">
-                            <p class="text-white text-center pt-4 px-2">施設の説明が入ります。</p>
+                            <p class="text-white text-center pt-4 px-2">説明が入ります。</p>
                         </div>
                         <img src="img/image050.jpg" alt="" class="w-100 rounded"> </div>
                     <div class="col-md-6 py-4 mb-5 mb-md-0 px-4 position-relative">
                         <div class="bg-green position-absolute rounded-circle d-flex justify-content-center align-items-center balloon">
-                            <p class="text-white text-center pt-4 px-2">施設の説明が入ります。</p>
+                            <p class="text-white text-center pt-4 px-2">説明が入ります。</p>
                         </div>
                         <img src="img/image070.jpg" alt="" class="w-100 rounded"> </div>
                 </div>
                 <div class="row">
                     <div class="col-md-4 py-4 mb-5 mb-md-0 px-4 position-relative">
                         <div class="bg-green position-absolute rounded-circle d-flex justify-content-center align-items-center balloon-s">
-                            <p class="text-white text-center pt-4 px-2">施設の説明が入ります。</p>
+                            <p class="text-white text-center pt-4 px-2">説明が入ります。</p>
                         </div>
                         <div class="position-absolute"> </div>
                         <img src="img/image040.jpg" alt="" class="w-100 rounded"> </div>
                     <div class="col-md-4 py-4 mb-5 mb-md-0 px-4 position-relative">
                         <div class="bg-green position-absolute rounded-circle d-flex justify-content-center align-items-center balloon-s">
-                            <p class="text-white text-center pt-4 px-2">施設の説明が入ります。</p>
+                            <p class="text-white text-center pt-4 px-2">説明が入ります。</p>
                         </div>
                         <div class="position-absolute"> </div>
                         <img src="img/image060.jpg" alt="" class="w-100 rounded"> </div>
                     <div class="col-md-4 pt-4 mb-5 mb-md-0 px-4 position-relative">
                         <div class="bg-green position-absolute rounded-circle d-flex justify-content-center align-items-center balloon-s">
-                            <p class="text-white text-center pt-4 px-2">施設の説明が入ります。</p>
+                            <p class="text-white text-center pt-4 px-2">説明が入ります。</p>
                         </div>
                         <div class="position-absolute"> </div>
                         <img src="img/image080.jpg" alt="" class="w-100 rounded"> </div>
@@ -146,14 +186,37 @@
     </section>
     
     <!-- お知らせ -->
-    <section class="position-relative pt-5" id="sec3">
-        <div class="bg-white half half-lightblue"></div>
+    <section class="position-relative pt-5" id="sec4">
+        <div class="bg-white_y half half-lightblue"></div>
         <div class="text-center position-relative">
             <h2 class="h3 dot font-weight-bold pt-3 pb-5 px-0 mb-0">お知らせ</h2>
         </div>
-        <div class="mb-0 mod-light-blue">
+        <div class="mb-0 mod-light-blue bg-white_y">
             <div class="container">
                 <div class="row">
+                    <div class="col-md-5 py-3"> <img src="img/zenchan.jpg" alt="" class="w-100 rounded"> </div>
+                    <div class="col-md-7 py-5 info">
+                        <h3 class="mb-3 text-center font-weight-bold">「ザ！鉄腕！DASH！！」の実験企画に制作・出演している北沢善一先生のサイエンスショー</h3>
+                        <h4 class="text-center mb-3">子どもも大人も必見！　善ちゃんの笑ってダメになるサイエンスショー～びっくり静電気実験から人工衛星「はやぶさ」のイオンエンジン体験～</h4>
+                        <h5 class="font-weight-bold mb-3 text-center" style="line-height: 1.8rem">日　時：2016年2月7日（日）<br> 第一部10:30～11:30 第二部13:00～14:00<br>
+                            場　所：アクトシティ研修交流センター<br>
+                            　　　　(62会議室)楽器博物館建物内<br>
+                            会　費：大人1,000円 子ども（園児・小学生）500円<br>
+                            定　員：一部・二部いずれも２００名　限定
+                        </h5>
+                        <p class="h6">TERAKOYA浜松　主催<br>
+                            浜松市教育委員会　後援<br>
+                            INFILL PLUS　協賛<br></p>
+                        <p class="h6">お申し込み期間　2016年1月31日(日)まで<br>
+                            お問い合わせ　050-5275-1166　または<br>
+                            <a target=”_blank” href="https://ssl.form-mailer.jp/fms/9bdbaef3406026">https://ssl.form-mailer.jp/fms/9bdbaef3406026</a><br>
+                            <br>
+                            ※　「チケットぴあ」からもご購入できます！<br>
+                            <a target=”_blank” href="http://ticket.pia.jp/pia/event.ds?eventCd=1600485">http://ticket.pia.jp/pia/event.ds?eventCd=1600485</a></p>
+                    </div>
+                </div>
+
+                <!-- <div class="row">
                     <div class="col-md-5 py-3"> <img src="img/image090.jpg" alt="" class="w-100 rounded"> </div>
                     <div class="col-md-7 py-5">
                         <h3 class="mb-3 text-center font-weight-bold">タイトルが入ります</h3>
@@ -164,29 +227,29 @@
                         <p class="h6">親譲りの無鉄砲で小供の時から損ばかりしている。小学校に居る時分学校の二階から飛び降りて一週間ほど腰を抜かした事がある。なぜそんな無闇をしたと聞く人があるかも知れぬ。別段深い理由でもない。新築の二階から首を出していたら、次は抜かさずに飛んで見せますと答えた。（青空文庫より）</p>
                         <p class="h6 mb-3">※お車でお越しの際は、駅周辺の駐車場をご利用ください。</p>
                     </div>
-                </div>
+                </div> -->
                 <div class="row pt-5 border-bottom">
-                    <div class="col-4 col-sm-3 col-md-2 h5 font-weight-normal">2018.12.10</div>
+                    <div class="col-4 col-sm-3 col-md-2 h5 font-weight-normal">2020.7.30</div>
                     <div class="col-4 col-sm-3 col-md-2 h6 text-center"><span class="badge badge-pill badge-danger px-3 py-1">おねがい</span></div>
-                    <div class="col-md-8 h6">インフルエンザが流行っています。こまめにうがい、手洗いを行ってください。</div>
+                    <div class="col-md-8 h6">コロナウイルスが流行っています。こまめにうがい、手洗いを行ってください。</div>
                 </div>
                 <div class="row pt-3 border-bottom">
-                    <div class="col-4 col-sm-3 col-md-2 h5 font-weight-normal">2018.12.10</div>
+                    <div class="col-4 col-sm-3 col-md-2 h5 font-weight-normal">2020.7.20</div>
                     <div class="col-4 col-sm-3 col-md-2 h6 text-center"><span class="badge badge-pill badge-success px-3 py-1">イベント</span></div>
                     <div class="col-md-8 h6">イベントの文章がはいります。</div>
                 </div>
                 <div class="row pt-3 mb-5 border-bottom">
-                    <div class="col-4 col-sm-3 col-md-2 h5 font-weight-normal">2018.12.10</div>
+                    <div class="col-4 col-sm-3 col-md-2 h5 font-weight-normal">2020.7.10</div>
                     <div class="col-4 col-sm-3 col-md-2 h6 text-center"><span class="badge badge-pill badge-warning px-3 py-1">おしらせ</span></div>
-                    <div class="col-md-8 h6">新しいウサギが仲間になりました。お名前募集中です。</div>
+                    <div class="col-md-8 h6">新しいウナギが仲間になりました。お友達募集中です。</div>
                 </div>
                 <div class="row"></div>
             </div>
         </div>
     </section>
     
-    <!-- 〇〇月の予定 -->
-    <section class="position-relative pt-5" id="sec4">
+    <!-- 月の予定 -->
+    <section class="position-relative pt-5" id="sec5">
         <div class="bg-lightblue half half-white"></div>
         <div class="container text-center position-relative bg-lightblue">
             <h2 class="h3 dot font-weight-bold pt-3 pb-5 px-0 mb-0">今月の予定</h2>
@@ -195,27 +258,27 @@
             <div class="container pb-5">
                 <div>
                     <ul class="px-0">
-                        <li class="d-inline-block"><i class="fas fa-moon"></i>...つき組（年長）</li>
-                        <li class="d-inline-block"><i class="fas fa-star"></i>...ほし組（年中）</li>
-                        <li class="d-inline-block"><i class="fas fa-rainbow"></i>...にじ組（年少）</li>
-                        <li class="d-inline-block"><i class="fas fa-feather"></i>...ひよこ組（3歳児保育）</li>
+                        <li class="d-inline-block"><i class="fas fa-circle" style="color:#e366ba;"></i>...プライマリーコース</li>
+                        <li class="d-inline-block"><i class="fas fa-circle" style="color:#f3b20a;"></i>...ベーシックコース</li>
+                        <li class="d-inline-block"><i class="fas fa-circle" style="color:#49aa48;"></i>...ミドルコース</li>
+                        <li class="d-inline-block"><i class="fas fa-circle" style="color:#2ca8ee;"></i>...アドバンスコース</li>
                     </ul>
                 </div>
-                <table class="table bg-white">
+                <table class="table bg-white_y">
                     <tr>
                         <th>３日（土）</th>
-                        <td>保育参観</td>
+                        <td>予定の内容が入ります。</td>
                         <td>予定の詳細が入ります。</td>
                     </tr>
                     <tr>
                         <th>７日（水）</th>
-                        <td>芋ほり</td>
+                        <td>予定の内容が入ります。</td>
                         <td>予定の詳細が入ります。</td>
                     </tr>
                     <tr>
                         <th>〇日（〇）</th>
-                        <td>半日保育</td>
-                        <td>11：30降園。※ 給食はでません。</td>
+                        <td>予定の内容が入ります。</td>
+                        <td>予定の詳細が入ります。</td>
                     </tr>
                     <tr>
                         <th>〇〇日（〇）</th>
@@ -248,193 +311,116 @@
                         <td>予定の詳細が入ります。</td>
                     </tr>
                 </table>
-                <div class="mt-5 text-center"> <a class="btn btn-info badge-pill text-center px-4" href="sample/index.php">年間の行事予定はこちら</a> </div>
             </div>
         </div>
     </section>
-    
-    <!-- 作品紹介 -->
-    <section class="position-relative pt-5" id="sec5">
-        <div class="bg-white half half-lightblue"></div>
-        <div class="container text-center position-relative bg-white">
-            <h2 class="h3 dot font-weight-bold pt-3 pb-5 px-0 mb-0">作品紹介</h2>
-        </div>
-        <div class="bg-white pb-5">
-            <div class="container pb-5"> 
-                
-                <!---------------------------------------- 春 ---------------------------------------->
-                <div class="row py-4">
-                    <div class="col-md-5">
-                        <div class="row mb-3 mx-0 mx-md-3">
-                            <div class="col-4">
-                                <div class="position-absolute bg-green rounded-circle season">
-                                    <div class="text-center text-white pt-2 h2 rounded-circle">Lv.1</div>
-                                </div>
-                            </div>
-                            <div class="col-8">
-                                <ul class="list-unstyled">
-                                    <li>4月 入園式
-                                        <ul class="list-unstyled pl-3">
-                                            <li>説明が入ります。</li>
-                                        </ul>
-                                    </li>
-                                    <li>4月 新入園児歓迎会</li>
-                                    <li>5月 親子遠足</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="text-center"> <img src="img/image200.png" alt="" class="w-50"> </div>
-                    </div>
-                    <div class="col-md-7 d-none d-md-block"> <img src="img/image120.jpg" alt="" class="img-thumbnail shadow-sm rounded-0"> </div>
-                </div>
-                <!---------------------------------------- 夏 ---------------------------------------->
-                <div class="row py-4">
-                    <div class="col-md-5 order-md-2">
-                        <div class="row mb-3 mx-0 mx-md-3">
-                            <div class="col-4">
-                                <div class="position-absolute bg-green rounded-circle season">
-                                    <div class="text-center text-white pt-2 h2 rounded-circle">Lv.2</div>
-                                </div>
-                            </div>
-                            <div class="col-8">
-                                <ul class="list-unstyled">
-                                    <li>6月 保育参観</li>
-                                    <li>7月 プール開き
-                                        <ul class="list-unstyled pl-3">
-                                            <li>説明が入ります。</li>
-                                        </ul>
-                                    </li>
-                                    <li>7月 七夕お楽しみ会</li>
-                                    <li>7月 夏まつり</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="text-center"> <img src="img/image210.png" alt="" class="w-50"> </div>
-                    </div>
-                    <div class="col-md-7 d-none d-md-block"> <img src="img/image130.jpg" alt="" class="img-thumbnail shadow-sm rounded-0"> </div>
-                </div>
-                <!---------------------------------------- 秋 ---------------------------------------->
-                <div class="row py-4">
-                    <div class="col-md-5">
-                        <div class="row mb-3 mx-0 mx-md-3">
-                            <div class="col-4">
-                                <div class="position-absolute bg-green rounded-circle season">
-                                    <div class="text-center text-white pt-2 h2 rounded-circle">Lv.3</div>
-                                </div>
-                            </div>
-                            <div class="col-8">
-                                <ul class="list-unstyled">
-                                    <li>9月 運動会</li>
-                                    <li>10月 秋の遠足
-                                        <ul class="list-unstyled pl-3">
-                                            <li>説明が入ります。</li>
-                                        </ul>
-                                    </li>
-                                    <li>10月 ハロウィン</li>
-                                    <li>10月 保育参観</li>
-                                    <li>11月 お芋ほり大会</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="text-center"> <img src="img/image220.png" alt="" class="w-50"> </div>
-                    </div>
-                    <div class="col-md-7 d-none d-md-block"> <img src="img/image140.jpg" alt="" class="img-thumbnail shadow-sm rounded-0"> </div>
-                </div>
-                <!---------------------------------------- 冬 ---------------------------------------->
-                <div class="row py-4">
-                    <div class="col-md-5 order-md-2">
-                        <div class="row mb-3 mx-0 mx-md-3">
-                            <div class="col-4">
-                                <div class="position-absolute bg-green rounded-circle season">
-                                    <div class="text-center text-white pt-2 h2 rounded-circle">Lv.4</div>
-                                </div>
-                            </div>
-                            <div class="col-8">
-                                <ul class="list-unstyled">
-                                    <li>12月 おゆうぎ会</li>
-                                    <li>12月 クリスマス会
-                                        <ul class="list-unstyled pl-3">
-                                            <li>説明が入ります。</li>
-                                        </ul>
-                                    </li>
-                                    <li>1月 お餅つき</li>
-                                    <li>2月 豆まき</li>
-                                    <li>3月 ひな祭り</li>
-                                    <li>3月 年長さんお別れ会</li>
-                                    <li>3月 卒園式</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="text-center"> <img src="img/image230.png" alt="" class="w-50"> </div>
-                    </div>
-                    <div class="col-md-7 d-none d-md-block"> <img src="img/image150.jpg" alt="" class="img-thumbnail shadow-sm rounded-0"> </div>
-                </div>
-                <!---------------------------------------- 秋 ----------------------------------------> 
-            </div>
-        </div>
-    </section>
-    
-    <!-- 講師紹介 -->
-    <section class="position-relative pt-5" id="sec6">
-        <div class="bg-lightblue half half-white"></div>
-        <div class="text-center position-relative bg-lightblue">
-            <h2 class="h3 dot font-weight-bold pt-3 pb-5 px-0 mb-0">講師紹介</h2>
-        </div>
-        <div class="bg-lightblue pb-5">
-            <div class="row">
-                <div class="col-md-6 py-3"> <img src="img/image110.jpg" alt="" class="w-100 rounded"> </div>
-                <div class="col-md-6 py-3">
-                    <h3 class="h4 py-3 text-center font-weight-bold">タイトルが入ります</h3>
-                    <p class="h6 mb-4">親譲りの無鉄砲で小供の時から損ばかりしている。小学校に居る時分学校の二階から飛び降りて一週間ほど腰を抜かした事がある。なぜそんな無闇をしたと聞く人があるかも知れぬ。別段深い理由でもない。新築の二階から首を出していたら、次は抜かさずに飛んで見せますと答えた。（青空文庫より）</p>
-                    <div class="text-center"> <a class="btn btn-info badge-pill text-center px-4" href="https://en-gage.net/terakoyah_jobs/">職員募集のご案内はこちら</a> </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="text-center position-relative" id="sec7">
-        <div class="bg-white half half-lightblue"></div>
+    <section class="text-center position-relative" id="sec6">
+        <div class="bg-white_y half half-lightblue"></div>
         <div class="text-center position-relative">
             <h2 class="h3 dot font-weight-bold pt-3 pb-5 px-0 mb-0">アクセス</h2>
+        </div>
+        <div class="row  bg-white_y access">
+            <div class="col-lg-6 order-lg-2">
+                <h3>浜松中央教室</h3>
+                <p>〒430-0933</p>
+                <p><span>静岡県浜松市中区鍛冶町100-1</span><span>ザザシティ浜松中央館5F</span><span>浜松こども館ギャラリー2</span></p>
+                <p><i class="fas fa-phone"></i> 電話番号<br><span>本部：0120-919-404</span>　<span>教室連絡先：050-5275-1166</span></p>
+                <p><i class="far fa-clock"></i> 受付時間<br><span>10:00～18:00 (日・祝日を除く。)</span></p>
+                <div class="mt-5 text-center"> <a class="btn btn-success badge-pill text-center px-4" href="https://kids.athuman.com/search/detail/?store_id=990"  target=”_blank”>体験授業お申し込みはこちら</a> </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.000394914718!2d137.72809631530282!3d34.705169980433304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601ade7b9924da1f%3A0x57f42703fb86f15d!2z44GT44GT44O744GE772e44KJ!5e0!3m2!1sja!2sjp!4v1595492609939!5m2!1sja!2sjp" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+            </div>
+        </div>
+        <!---------------------------------------- ワークピア磐田教室 ---------------------------------------->
+        <div class="row  bg-white_y access">
+            <div class="col-lg-6">
+                <h3>ワークピア磐田教室</h3>
+                <p>〒438-0086</p>
+                <p><span>静岡県磐田市見付2989-3</span><span>ワークピア磐田　会議室</span></p>
+                <p><i class="fas fa-phone"></i> 電話番号<br><span>本部：0120-919-404</span>　<span>教室連絡先：050-5275-1166</span></p>
+                <p><i class="far fa-clock"></i> 受付時間<br><span>10:00～18:00 (日・祝日を除く。)</span></p>
+                <div class="mt-5 text-center"> <a class="btn btn-success badge-pill text-center px-4" href="https://kids.athuman.com/search/detail/?store_id=1026&code=140000"  target=”_blank”>体験授業お申し込みはこちら</a> </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6783.683441799663!2d137.85025071446287!3d34.71884201489116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601ae4322de5a901%3A0xb9624aa9ac725f08!2z56OQ55Sw5biCIOODr-ODvOOCr-ODlOOCouejkOeUsA!5e0!3m2!1sja!2sjp!4v1595494026840!5m2!1sja!2sjp" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+            </div>
+        </div>
+        <!---------------------------------------- 袋井月見の里教室 ---------------------------------------->
+        <div class="row  bg-white_y access">
+            <div class="col-lg-6 order-lg-2">
+                <h3>袋井月見の里教室</h3>
+                <p>〒437-0125</p>
+                <p><span>静岡県袋井市上山梨四丁目3-7</span><span>袋井市 月見の里学遊館内</span></p>
+                <p><i class="fas fa-phone"></i> 電話番号<br><span>本部：0120-919-404</span>　<span>教室連絡先：050-5275-1166</span></p>
+                <p><i class="far fa-clock"></i> 受付時間<br><span>10:00～20:00 (日・祝日を除く。)</span></p>
+                <div class="mt-5 text-center"> <a class="btn btn-success badge-pill text-center px-4" href="https://kids.athuman.com/search/detail/?store_id=1396&code=140000"  target=”_blank”>体験授業お申し込みはこちら</a> </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6553.491502333169!2d137.89806205918234!3d34.78717537823319!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601ae341d631bceb%3A0xc2f6b280be9375f!2z6KKL5LqV5biC5pyI6KaL44Gu6YeM5a2m6YGK6aSo!5e0!3m2!1sja!2sjp!4v1595501179081!5m2!1sja!2sjp" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+            </div>
+        </div>
+        <!---------------------------------------- 湖西中央教室 ---------------------------------------->
+        <div class="row  bg-white_y access">
+            <div class="col-lg-6">
+                <h3>湖西中央教室</h3>
+                <p>〒431-0303</p>
+                <p><span>静岡県湖西市新居町浜名519-1</span><span>新居地域センター内</span></p>
+                <p><i class="fas fa-phone"></i> 電話番号<br><span>本部：0120-919-404</span>　<span>教室連絡先：050-5275-1166</span></p>
+                <p><i class="far fa-clock"></i> 受付時間<br><span>10:00～18:00 (日・祝日を除く。)</span></p>
+                <div class="mt-5 text-center"> <a class="btn btn-success badge-pill text-center px-4" href="https://kids.athuman.com/search/detail/?store_id=1767&code=140000"  target=”_blank”>体験授業お申し込みはこちら</a> </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.6605608092336!2d137.5589293153026!3d34.68851548043758!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601ad631913b29d7%3A0xedf058ba2c2e0a49!2z5rmW6KW_5biC5paw5bGF5Zyw5Z-f44K744Oz44K_44O8!5e0!3m2!1sja!2sjp!4v1595501850940!5m2!1sja!2sjp" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+            </div>
         </div>
     </section>
 </main>
 <footer class="position-relative pt-5"> 
     <!-- フッターナビ -->
-    <div class="half bg-green"></div>
+    <div class="half-white half bg-green"></div>
     <div class="bg-green pb-3 position-relative">
         <div class="container mt-3">
             <ul class="d-md-flex justify-content-center justify-content-md-between flex-wrap h6 list-unstyled pb-4">
-                <li class="mb-3 mb-md-0"><a href="#sec1" class="text-white mr-1">コース紹介</a></li>
+                <li class="mb-3 mb-md-0"><a href="#sec0" class="text-white mr-1">トップ</a></li>
                 <span class="text-white d-none d-md-block">|</span>
-                <li class="mb-3 mb-md-0"><a href="#sec2" class="text-white mx-1">SAMPLE園のようす</a></li>
+                <li class="mb-3 mb-md-0"><a href="#sec1" class="text-white mr-1">ロボット教室とは</a></li>
                 <span class="text-white d-none d-md-block">|</span>
-                <li class="mb-3 mb-md-0"><a href="#sec3" class="text-white mx-1">お知らせ</a></li>
+                <li class="mb-3 mb-md-0"><a href="#sec2" class="text-white mx-1">コース紹介</a></li>
                 <span class="text-white d-none d-md-block">|</span>
-                <li class="mb-3 mb-md-0"><a href="#sec4" class="text-white mx-1">今月の予定</a></li>
+                <li class="mb-3 mb-md-0"><a href="#sec3" class="text-white mx-1">教室の様子</a></li>
                 <span class="text-white d-none d-md-block">|</span>
-                <li class="mb-3 mb-md-0"><a href="#sec5" class="text-white mx-1">作品紹介</a></li>
+                <li class="mb-3 mb-md-0"><a href="#sec4" class="text-white mx-1">お知らせ</a></li>
                 <span class="text-white d-none d-md-block">|</span>
-                <li class="mb-3 mb-md-0"><a href="#sec6" class="text-white mx-1">講師紹介</a></li>
+                <li class="mb-3 mb-md-0"><a href="#sec5" class="text-white mx-1">今月の予定</a></li>
                 <span class="text-white d-none d-md-block">|</span>
-                <li class="mb-3 mb-md-0"><a href="#sec7" class="text-white mx-1">アクセス</a></li>
+                <li class="mb-3 mb-md-0"><a href="#sec6" class="text-white mx-1">アクセス</a></li>
                 <span class="text-white d-none d-md-block">|</span>
                 <li class="mb-3 mb-md-0"><a target=”_blank” href="https://kids.athuman.com/search/detail/?store_id=990" class="text-white ml-1">無料体験授業</a></li>
             </ul>
             <div class="row px-md-0">
                 <div class="col-md-6">
-                    <p class="text-white h5 font-weight-bold">SAMPLE園</p>
+                    <p class="text-white h6">TERAKOYA浜松</p>
                     <p class="text-white mb-0">〒123-4567</p>
-                    <p class="text-white">東京都港区芝8丁目0-0</p>
+                    <p class="text-white">東京都千代田区千代田１−１</p>
                 </div>
                 <div class="col-md-6">
-                    <p class="text-white mb-1"><i class="fas fa-phone mr-2"></i>03-1234-5678</p>
-                    <p class="text-white mb-1"><i class="fas fa-fax mr-2"></i>03-1234-5678</p>
+                    <p class="text-white mb-1"><i class="fas fa-phone mr-2"></i>0120-919-404</p>
                     <p class="text-white mb-1"><i class="far fa-envelope mr-2"></i>info@example.com</p>
+                    <p class="text-white mb-1"><i class="fab fa-facebook-square"></i> <a href="https://www.facebook.com/terakoya.hamamatsu/" target="_blank" style="color:#fff;">@terakoya.hamamatsu</a></p>
                 </div>
             </div>
         </div>
         <hr style="border-color: #fff;">
-        <p class="mb-0 pt-2 text-white text-center mod-copyright">2020 &copy; あなたのサイト名</p>
+        <p class="mb-0 pt-2 text-white text-center mod-copyright">2020 &copy; わたしのサイト名</p>
         <div class="row"> </div>
     </div>
 </footer>
