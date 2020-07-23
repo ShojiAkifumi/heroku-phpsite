@@ -151,10 +151,19 @@ table tr:nth-child(odd) {
 .h6 p{
 	margin: 1em auto;
 	text-align: center;
-	width:60%;
+	width:70%;
 }
 .h6 p span{
 	display: inline-block;
+}
+/* --------- ロボット画像 ------- */
+.robo-img{
+	margin: auto;
+    width:  70%;
+    height: 70%;
+}
+.robo-img img{
+	border-radius: 50%;
 }
 /* --------- お知らせ ------- */
 .info p{
