@@ -131,6 +131,10 @@ header .container-fluid {
 	right: 20px;
 	z-index: 2;
 }
+.catch-copy{
+	width: 85%;
+	margin: auto;
+}
 .catch-copy span{
 	display: inline-block;
 }
