@@ -64,12 +64,16 @@ header .container-fluid {
 	background-size: cover;
 	background-position: 50% 100%;
 }
+
 .facebook {
 	font-size: 40px;
 	position: fixed;
     top: 20px;
 	right: 20px;
 	z-index: 2;
+}
+.catch-copy span{
+	display: inline-block;
 }
 /*    グローバルナビ
 -------------------------------------------------- */
@@ -151,7 +155,7 @@ table tr:nth-child(odd) {
 .h6 p{
 	margin: 1em auto;
 	text-align: center;
-	width:70%;
+	width:78%;
 }
 .h6 p span{
 	display: inline-block;
@@ -159,6 +163,7 @@ table tr:nth-child(odd) {
 /* --------- ロボット画像 ------- */
 .robo-img{
 	margin: auto;
+	padding-bottom: 15px;
     width:  70%;
     height: 70%;
 }

@@ -2,11 +2,11 @@
 <html>
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
 <meta charset="UTF-8">
-<title>あなたのサイト名</title>
+<title>試作webサイト</title>
 <meta name="description" content="サイトの説明文">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link rel="canonical" href="あなたのサイトURL">
-<link rel="icon" type="image/png" href="ファビコンのパス" />
+<link rel="icon" type="image/png" href="img/fapicon.png" />
 <!-- OGP設定 -->
 <meta property="og:type" content="website" />
 <meta property="og:url" content="あなたのサイトURL" />
@@ -30,13 +30,13 @@
 <header>
     <div class="facebook"><a href="https://www.facebook.com/terakoya.hamamatsu/" target="_blank"><i class="fab fa-facebook"></i></a></div>
     <div class="container-fluid position-relative px-0" id="sec0">
-        <h1 class="display-4 catch-copy">ＴＥＲＡＫＯＹＡ浜松</h1>
+        <h1 class="display-4 catch-copy"><span>お子さまが</span><span>「より良く生きられる力」</span><span>を育みます。</span></h1>
         <div class="mod-gnav position-absolute w-100" style="bottom: 0;">
             <div class="position-relative pt-5">
                 <div class="half bg-green"></div>
-                <!-- <div class="container">
-                    <div class="position-relative text-center bg-green"> <img src="img/logo.png" alt="" class="logo"> </div>
-                </div> -->
+                <div class="container">
+                    <div class="position-relative text-center bg-green"> <img src="img/TERAKOYA_logo.png" alt="" class="logo"> </div>
+                </div>
                 <div class="bg-green py-3">
                     <div class="container px-0">
                         <nav class="navbar navbar-expand-md navbar-light mb-3 px-md-0">
@@ -45,7 +45,7 @@
                                 <ul class="navbar-nav w-100 justify-content-around">
                                     <li class="nav-item"><a class="nav-link text-info" href="#sec1"><span>ロボット</span><span>教室とは</span></a></li>
                                     <li class="nav-item"><a class="nav-link text-info" href="#sec2">コース紹介</a></li>
-                                    <li class="nav-item"><a class="nav-link text-info" href="#sec3">教室のようす</a></li>
+                                    <li class="nav-item"><a class="nav-link text-info" href="#sec3"><span>教室の</span><span>ようす</span></a></li>
                                     <li class="nav-item"><a class="nav-link text-info" href="#sec4">お知らせ</a></li>
                                     <li class="nav-item"><a class="nav-link text-info" href="#sec5">今月の予定</a></li>
                                     <li class="nav-item"><a class="nav-link text-info" href="#sec6">アクセス</a></li>
