@@ -31,10 +31,7 @@
     <!--ローディング画面-->
     <div id="loader-bg" class="is-hide">
         <div id="loader" class="is-hide">
-            <p>
-                <img src="img/loader.png" id="loader-animation"><br>
-                NOW LOADING
-            </p>
+            <img src="img/loader.png" id="loader-animation">
         </div>
     </div>
     <div class="facebook"><a href="https://www.facebook.com/terakoya.hamamatsu/" target="_blank"><i class="fab fa-facebook"></i></a></div>
