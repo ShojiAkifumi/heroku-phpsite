@@ -61,7 +61,7 @@ body, p {
     text-align: center;
 }
 #loader p img {
-	width: 20%;
+	width: 40%;
 	display: inline-block;
 }
 #loader-animation{
@@ -71,6 +71,7 @@ body, p {
 	0%{ transform:rotate(0);}
 	100%{ transform:rotate(360deg); }
   }
+
 /* 半円背景各種
 -------------------------------------------------- */
 /* 半月（背景白） */
@@ -131,10 +132,7 @@ header .container-fluid {
 	right: 20px;
 	z-index: 2;
 }
-.catch-copy{
-	width: 85%;
-	margin: auto;
-}
+
 .catch-copy span{
 	display: inline-block;
 }
