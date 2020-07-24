@@ -32,7 +32,7 @@
     <div id="loader-bg" class="is-hide">
         <div id="loader" class="is-hide">
             <p>
-                <img src="img/fapicon.png" id="loader-animation"><br>
+                <img src="img/loader.png" id="loader-animation"><br>
                 NOW LOADING
             </p>
         </div>
