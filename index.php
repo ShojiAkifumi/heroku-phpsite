@@ -30,6 +30,15 @@
 </head>
 <body>
 <header>
+    <!--ローディング画面-->
+    <div id="loader-bg" class="is-hide">
+        <div id="loader" class="is-hide">
+            <p>
+                <img src="img/fapicon.png"><br>
+                NOW LOADING
+            </p>
+        </div>
+    </div>
     <div class="facebook"><a href="https://www.facebook.com/terakoya.hamamatsu/" target="_blank"><i class="fab fa-facebook"></i></a></div>
     <div class="container-fluid position-relative px-0" id="sec0">
         <h1 class="display-4 catch-copy"><span>お子さまが</span><span>「より良く生きられる力」</span><span>を育みます。</span></h1>
