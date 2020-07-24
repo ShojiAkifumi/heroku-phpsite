@@ -55,7 +55,7 @@
                                     <li class="nav-item"><a class="nav-link text-info" href="#sec4">お知らせ</a></li>
                                     <li class="nav-item"><a class="nav-link text-info" href="#sec5">今月の予定</a></li>
                                     <li class="nav-item"><a class="nav-link text-info" href="#sec6">アクセス</a></li>
-                                    <li class="nav-item"><a class="nav-link text-info" target=”_blank” href="https://kids.athuman.com"><span>ヒューマン</span><span>アカデミー</span></a></li>
+                                    <li class="nav-item"><a class="nav-link text-info" target=”_blank” href="https://kids.athuman.com/robo"><span>ヒューマン</span><span>アカデミー</span></a></li>
                                 </ul>
                             </div>
                         </nav>
@@ -424,7 +424,7 @@
                 <span class="text-white d-none d-md-block">|</span>
                 <li class="mb-3 mb-md-0"><a href="#sec6" class="text-white mx-1">アクセス</a></li>
                 <span class="text-white d-none d-md-block">|</span>
-                <li class="mb-3 mb-md-0"><a target=”_blank” href="https://kids.athuman.com" class="text-white ml-1">ヒューマンアカデミー</a></li>
+                <li class="mb-3 mb-md-0"><a target=”_blank” href="https://kids.athuman.com/robo" class="text-white ml-1">ヒューマンアカデミー</a></li>
             </ul>
             <div class="row px-md-0">
                 <div class="col-md-6">
