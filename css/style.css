@@ -64,6 +64,7 @@ body, p {
 #loader p img {
 	width: 30%;
 	display: inline-block;
+	z-index: 75;
 }
 #loader-animation{
 	animation:3s linear infinite rotation1;
