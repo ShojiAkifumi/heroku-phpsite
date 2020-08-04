@@ -61,3 +61,11 @@ h2 { font-size: 1.2rem !important; }
     font-size: 2rem !important;
 }
 }/* END */
+
+/*           ↑          */
+
+.fadeInUp {
+	opacity : 0;
+	transform: translateY(25px);
+	transition: 1s;
+  }
