@@ -455,7 +455,7 @@ TTTTTT  EEEE  RRRR    AA   K  K   OOO   Y   Y   AA        浜   浜浜浜浜    
             </div>
         </div>
         <hr style="border-color: #fff;">
-        <p class="mb-0 pt-2 text-white text-center mod-copyright">2020 &copy; わたしのサイト名</p>
+        <p class="mb-0 pt-2 text-white text-center mod-copyright">2020 &copy; TERAKOYA浜松</p>
         <div class="row"> </div>
     </div>
 </footer>
